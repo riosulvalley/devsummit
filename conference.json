@@ -7,10 +7,38 @@
 	"slogan": "Conferência de desenvolvimento web no Sul Fluminense",
 	"description": "Conferência de desenvolvimento web no Sul Fluminense",
 	"date": "21 de Março",
-	"place": "UGB",
-	"city": "Volta Redonda - RJ",
+	"place": {
+		"name": "UGB",
+		"city": "Volta Redonda - RJ",
+		"map": "https://www.google.com/maps/place/UGB/@-22.5082207,-44.0897298,17z"
+	},
+
 	"speakers": [{
 		"photo": "palestrante.jpg",
+		"name": "Afonso F",
+		"title": "Software Engineer",
+		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+	},
+	{
+		"photo": "palestrante2.jpg",
+		"name": "Afonso F",
+		"title": "Software Engineer",
+		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+	},
+	{
+		"photo": "palestrante3.jpg",
+		"name": "Afonso F",
+		"title": "Software Engineer",
+		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+	},
+	{
+		"photo": "palestrante4.jpg",
+		"name": "Afonso F",
+		"title": "Software Engineer",
+		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+	},
+	{
+		"photo": "palestrante5.jpg",
 		"name": "Afonso F",
 		"title": "Software Engineer",
 		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
@@ -19,22 +47,71 @@
 		"name": "Diamond",
 		"sponsors": [{
 			"name": "UGB",
-			"website":"ugb.edu.br",
+			"website":"http://ugb.edu.br",
 			"logo":"sponsor.jpg"
 		}]
 	}],
 	"schedules": [{
 		"27/03": [{
-			"time": "11:00",
-			"talks": [[{
+			"time": "08h00",
+			"talks": [
+			{
 				"title": "Teste 123",
-				"room": "123",
 				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
 				"speakers":[{
 					"name": "Afonso",
 					"title": "developer"
 				}]
-			}]]
+			}]
+		},
+		{
+			"time": "09h00",
+			"talks": [
+			{
+				"title": "Teste 123",
+				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"speakers":[{
+					"name": "Afonso",
+					"title": "developer"
+				}]
+			}]
+		},
+		{
+			"time": "10h00",
+			"talks": [
+			{
+				"title": "Teste 123",
+				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"speakers":[{
+					"name": "Afonso",
+					"title": "developer"
+				}]
+			}]
+		},
+		{
+			"time": "11h00",
+			"talks": [
+			{
+				"title": "Teste 123",
+				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"speakers":[{
+					"name": "Afonso",
+					"title": "developer"
+				}]
+			}]
+		},
+		{
+			"time": "12h00",
+			"talks": [
+			{
+				"title": "Teste 123",
+				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"speakers":[{
+					"name": "Afonso",
+					"title": "developer"
+				}]
+			}]
 		}]
-	}]	
+	}]
 }
+			

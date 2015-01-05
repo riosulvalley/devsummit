@@ -1,4 +1,5 @@
 .local {
+  margin-top: 100px;
   text-align: center;
   position: relative;
 
@@ -14,11 +15,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -o-filter: blur(8px);
-    -ms-filter: blur(8px);
-    filter: blur(8px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
 
     &:before {
       content: "";

@@ -46,7 +46,7 @@
           </article>
 
           <address class="address">
-            <time><%=date%>, <%=place%> - <%=city%></time>
+            <time><%=date%>, <%=place.name%> - <%=place.city%></time>
           </address>
         </header>
 
@@ -97,16 +97,16 @@
 				
 				  <tr class="feature">
 					<td class="time">
-					  <time><%=schedule.time%> </time>
+					  <time><%=schedule.time%></time>
 					</td>
 					
+					
+					
 					<%for(var i3 = 0; i3 < schedule.talks.length; i3++) {
-						var talks = schedule.talks[i3];%>
+						var talk = schedule.talks[i3];%>
 					
 						<td class="event">
 							<ul class="schedule-list">
-							<%for(var i4 = 0; i4 < talks.length; i4++) {
-								var talk = talks[i4];%>
 								<li>
 								  <h2 class="header">
 									<span class="talk-title"><%=talk.title%></span>
@@ -119,7 +119,6 @@
 								  </h2>
 								  <span class="description"><%=talk.description%></span>
 								</li>
-							<%}%>
 						  </ul>
 						</td>
 					<%}%>
@@ -142,10 +141,10 @@
             <img src="images/foto-hotel.jpg" alt="Faro Hotel" class="faro-hotel">
 
             <address class="event-address">
-              <p>O evento vai ser realizado no <span><%=place%> em <%=city%> </span></p>
+              <p>O evento vai ser realizado no <span><%=place.name %> em <%=place.city %> </span></p>
             </address>
 
-            <a href="#" class="more-info">Saiba mais</a>
+            <a href="<%=place.map%>" class="more-info">Mapa</a>
           </article>
         </section>
 
@@ -175,7 +174,7 @@
         </section>
 
         <footer class="main-footer">
-          <p class="copyright">© Copyright 2014 - todos os direitos reservados</p>
+          <p class="copyright">© Copyright <%=new Date().getFullYear()%> - todos os direitos reservados</p>
         </footer>
       </div>
 
