@@ -29,6 +29,10 @@ module.exports = function (grunt) {
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
+	  ejs: {
+		files: ['pages/*.ejs', 'conference.json'],
+		tasks: ['build']
+	  },
       bower: {
         files: ['bower.json'],
         tasks: ['wiredep']
@@ -39,10 +43,6 @@ module.exports = function (grunt) {
         options: {
           livereload: '<%= connect.options.livereload %>'
         }
-      },
-      jsTest: {
-        files: ['test/spec/{,*/}*.js'],
-        tasks: ['newer:jshint:test', 'karma']
       },
       compass: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
@@ -86,22 +86,6 @@ module.exports = function (grunt) {
           }
         }
       },
-      test: {
-        options: {
-          port: 9001,
-          middleware: function (connect) {
-            return [
-              connect.static('.tmp'),
-              connect.static('test'),
-              connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
-              ),
-              connect.static(appConfig.app)
-            ];
-          }
-        }
-      },
       dist: {
         options: {
           open: true,
@@ -121,12 +105,6 @@ module.exports = function (grunt) {
           'Gruntfile.js',
           '<%= yeoman.app %>/scripts/{,*/}*.js'
         ]
-      },
-      test: {
-        options: {
-          jshintrc: 'test/.jshintrc'
-        },
-        src: ['test/spec/{,*/}*.js']
       }
     },
 
@@ -163,7 +141,7 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the app
     wiredep: {
       options: {
-        cwd: '<%= yeoman.app %>'
+        cwd: '.'
       },
       app: {
         src: ['<%= yeoman.app %>/index.html'],
@@ -244,32 +222,6 @@ module.exports = function (grunt) {
       }
     },
 
-    // The following *-min tasks will produce minified files in the dist folder
-    // By default, your `index.html`'s <!-- Usemin block --> will take care of
-    // minification. These next options are pre-configured if you do not wish
-    // to use the Usemin blocks.
-    // cssmin: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/styles/main.css': [
-    //         '.tmp/styles/{,*/}*.css'
-    //       ]
-    //     }
-    //   }
-    // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/scripts/scripts.js': [
-    //         '<%= yeoman.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
-    // concat: {
-    //   dist: {}
-    // },
-
     imagemin: {
       dist: {
         files: [{
@@ -306,20 +258,6 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.dist %>',
           src: ['*.html', 'views/{,*/}*.html'],
           dest: '<%= yeoman.dist %>'
-        }]
-      }
-    },
-
-    // ngmin tries to make the code safe for minification automatically by
-    // using the Angular long form for dependency injection. It doesn't work on
-    // things like resolve or inject so those have to be done manually.
-    ngmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '.tmp/concat/scripts',
-          src: '*.js',
-          dest: '.tmp/concat/scripts'
         }]
       }
     },
@@ -372,9 +310,6 @@ module.exports = function (grunt) {
       server: [
         'compass:server'
       ],
-      test: [
-        'compass'
-      ],
       dist: [
         'compass:dist',
         'imagemin',
@@ -382,13 +317,18 @@ module.exports = function (grunt) {
       ]
     },
 
-    // Test settings
-    karma: {
-      unit: {
-        configFile: 'test/karma.conf.js',
-        singleRun: true
-      }
-    }
+	ejs: {
+		all: {
+			options: grunt.util._.merge(require('./conference.json'), {
+				_url: function(page) {
+					page = page || '';
+					return require('./conference.json').url + page;
+				},
+			}),
+			src: 'pages/index.ejs',
+			dest: 'app/index.html',
+		},
+	  },    
   });
 
 
@@ -412,22 +352,14 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
 
-  grunt.registerTask('test', [
-    'clean:server',
-    'concurrent:test',
-    'autoprefixer',
-    'connect:test',
-    'karma'
-  ]);
-
   grunt.registerTask('build', [
+	'ejs',
     'clean:dist',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
     'concat',
-    'ngmin',
     'copy:dist',
     'cdnify',
     'cssmin',
@@ -439,7 +371,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
     'build'
   ]);
 };

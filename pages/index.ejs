@@ -2,19 +2,19 @@
 <html class="no-js">
 <head>
   <meta charset="utf-8">
-  <title>Web Dev Summit 2015 - Conferência de desenvolvimento web no Sul Fluminense</title>
+  <title><%=name%> - <%=slogan%></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <meta property="og:locale" content="pt_BR">
 
-  <meta property="og:url" content="http://webdevsummit.com.br">
+  <meta property="og:url" content="<%=_url()%>">
 
-  <meta property="og:title" content="Web Dev Summit 2015 - Conferência de desenvolvimento web no Sul Fluminense">
-  <meta property="og:site_name" content="Web Dev Summit 2015">
+  <meta property="og:title" content="<%=name%> - <%=slogan%>">
+  <meta property="og:site_name" content="<%=name%>">
 
-  <meta property="og:description" content="Conferência de desenvolvimento web no Sul Fluminense">
+  <meta property="og:description" content="<%=description%>">
 
-  <meta property="og:image" content="http://webdevsummit.com.brimages/og-cover.png">
+  <meta property="og:image" content="<%=_url("images/og-cover.png") %>">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="600"> 
@@ -40,13 +40,13 @@
           <article class="row">
             <img src="images/logo.svg" alt="Agile Vale 2014" class="logo">
 
-            <h1 class="main-title">Web Dev Summit 2015</h1>
+            <h1 class="main-title"><%= name %></h1>
 
-            <a href="http://www.eventick.com.br/web-dev-summit/" class="register-btn">Inscreva-se</a>
+            <a href="<%=eventick%>" class="register-btn">Inscreva-se</a>
           </article>
 
           <address class="address">
-            <time>21 de Março, UGB - Volta Redonda - RJ</time>
+            <time><%=date%>, <%=place%> - <%=city%></time>
           </address>
         </header>
 
@@ -56,77 +56,84 @@
           <article class="row">
             <h1 class="title">PALESTRANTES</h1>		
 			
-			
+			<%for(var i = 0; i < speakers.length; i++) {
+				var speaker = speakers[i];%>
 				<div class="col-md-4 flip-container">
 				  <div class="flipper">
 					<div class="front">
-					  <img src="images/palestrante.jpg" alt="Palestrante">
+					  <img src="images/<%=speaker.photo%>" alt="Palestrante">
 					</div>
 					<div class="back">
-					  <h1 class="speaker-name">Afonso F</h1>
-					  <span class="speaker-role">Software Engineer</span>
-					  <p class="speaker-description">Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal</p>
+					  <h1 class="speaker-name"><%=speaker.name%></h1>
+					  <span class="speaker-role"><%=speaker.title%></span>
+					  <p class="speaker-description"><%=speaker.bio%></p>
 					</div>
 				  </div>
 				</div>
-				
+			<%}%>	
 			
           </article>
         </section>
 		
-		
+		<% if (released) {%>
 
         <section class="programming">
 		
           <h1>PROGRAMAÇÃO</h1>
 
-		
+		<%for(var i1 = 0; i1 < schedules.length; i1++) {
+			var days = schedules[i1];%>
 		  
           <article class="row">
 		  
 		  
-			
+			<%for(var day in days) {
+			var scheds = days[day];%>
 		  
             <table class="events-table" cellpadding="0" cellspacing="0">
 			
-				
+				<%for(var i2 = 0; i2 < scheds.length; i2++) {
+				var schedule = scheds[i2];%>
 				
 				  <tr class="feature">
 					<td class="time">
-					  <time>11:00 </time>
+					  <time><%=schedule.time%> </time>
 					</td>
 					
-					
+					<%for(var i3 = 0; i3 < schedule.talks.length; i3++) {
+						var talks = schedule.talks[i3];%>
 					
 						<td class="event">
 							<ul class="schedule-list">
-							
+							<%for(var i4 = 0; i4 < talks.length; i4++) {
+								var talk = talks[i4];%>
 								<li>
 								  <h2 class="header">
-									<span class="talk-title">Teste 123</span>
-									<span class="room"> 123 </span>  
+									<span class="talk-title"><%=talk.title%></span>
+									<% if( talk.room ) { %><span class="room"> <%=talk.room%> </span> <%}%> 
 									
-									
-										<span class="speaker">Afonso, developer</span>
-									
+									<%for(var i5 = 0; i5 < talk.speakers.length; i5++) {
+										var speaker = talk.speakers[i5];%>
+										<span class="speaker"><%=speaker.name %>, <%=speaker.title%></span>
+									<%}%>
 								  </h2>
-								  <span class="description">sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk </span>
+								  <span class="description"><%=talk.description%></span>
 								</li>
-							
+							<%}%>
 						  </ul>
 						</td>
-					
+					<%}%>
 				  </tr>
-				
+				<%}%>
             </table>
 
-			
+			<%}%>
 		  </article>
-		
+		<%}%>
 
         </section>
 
-        
+        <%}%>
 		
 		<section class="local">
           <div class="bg-image"></div>
@@ -135,7 +142,7 @@
             <img src="images/foto-hotel.jpg" alt="Faro Hotel" class="faro-hotel">
 
             <address class="event-address">
-              <p>O evento vai ser realizado no <span>UGB em Volta Redonda - RJ </span></p>
+              <p>O evento vai ser realizado no <span><%=place%> em <%=city%> </span></p>
             </address>
 
             <a href="#" class="more-info">Saiba mais</a>
@@ -146,21 +153,23 @@
           <article class="row">
             <h1>PATROCINADORES</h1>
 			
-			
+			<%for(var i1 = 0; i1 < sponsorships.length; i1++) {
+				var sponsorship = sponsorships[i1];%>
 				<div>
-					
+					<% if (sponsorship.sponsors) { %>
 						<div class="col-md-4">
-							<h2 class="title support-title">Diamond</h2>
+							<h2 class="title support-title"><%=sponsorship.name%></h2>
 							
-														
+							<%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
+								var sponsor = sponsorship.sponsors[i2];%>							
 								<div class="sponsor">
-									<a href="ugb.edu.br" target="_blannk"><img src="images/sponsor.jpg" alt="UGB" class="sponsor-logo"></a>
+									<a href="<%=sponsor.website%>" target="_blannk"><img src="images/<%=sponsor.logo%>" alt="<%=sponsor.name%>" class="sponsor-logo"></a>
 								</div>
-							
+							<%}%>
 						</div>
-					
+					<%}%>
 				</div>
-			
+			<%}%>
 
           </article>
         </section>
@@ -176,7 +185,7 @@
          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-XXXXX-X');
+       ga('create', '<%=analytics%>');
        ga('send', 'pageview');
      </script>
 
