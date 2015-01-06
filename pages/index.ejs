@@ -114,7 +114,7 @@
 									
 									<%for(var i5 = 0; i5 < talk.speakers.length; i5++) {
 										var speaker = talk.speakers[i5];%>
-										<span class="speaker"><%=speaker.name %>, <%=speaker.title%></span>
+										<span class="speaker"><%=speaker.name %><% if( speaker.title ) { %>, <%=speaker.title%><%}%></span>
 									<%}%>
 								  </h2>
 								  <span class="description"><%=talk.description%></span>
@@ -158,9 +158,8 @@
 					<% if (sponsorship.sponsors) { %>
 						<div class="col-md-4">
 							<h2 class="title support-title"><%=sponsorship.name%></h2>
-							
 							<%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
-								var sponsor = sponsorship.sponsors[i2];%>							
+								var sponsor = sponsorship.sponsors[i2];%>
 								<div class="sponsor">
 									<a href="<%=sponsor.website%>" target="_blannk"><img src="images/<%=sponsor.logo%>" alt="<%=sponsor.name%>" class="sponsor-logo"></a>
 								</div>
@@ -183,7 +182,6 @@
          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
        ga('create', '<%=analytics%>');
        ga('send', 'pageview');
      </script>
