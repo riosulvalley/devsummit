@@ -43,6 +43,7 @@
             <h1 class="main-title"><%= name %></h1>
 
             <a href="<%=eventick%>" class="register-btn">Inscreva-se</a>
+			<a href="http://goo.gl/forms/ZmUHRQYWlG" target="_blank" class="register-btn" style="width: 21.5em">Receba as novidades por e-mail</a>
           </article>
 
           <address class="address">
@@ -50,11 +51,19 @@
           </address>
         </header>
 
-        <section class="photos"></section>
+        <section class="photos" style="display: none"></section>
 
         <section class="speakers">
           <article class="row">
-            <h1 class="title">PALESTRANTES</h1>		
+            <h1 class="title">PALESTRANTES</h1>
+
+				<div class="col-md-4" style="border: 2px dashed #3498db;font-size: 20px;vertical-align: middle;line-height: 285px;">
+				  <div class="flipper">
+					<div class="call">
+						<a href="http://goo.gl/forms/awRVSscHlP" target="_blank">Seja um palestrante!</a>
+					</div>
+				  </div>
+				</div>			
 			
 			<%for(var i = 0; i < speakers.length; i++) {
 				var speaker = speakers[i];%>
