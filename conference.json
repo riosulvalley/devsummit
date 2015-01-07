@@ -18,14 +18,20 @@
 		"name": "Henrique Bastos",
 		"title": "Welcome to the Django",
 		"bio": "Henrique Bastos é inquieto e empreendedor. Adora aplicar tecnologias para iniciativas em rede que promovam autonomia de pessoas comuns."
-	},
-	{
-		"photo": "palestrante2.jpg",
-		"name": "Sérgio Bohrer Reis",
-		"title": "Analista Programador na GAS Tecnologia",
-		"bio": "Desenvolvedor C++ e PHP experiente e engatinhando no mundo mobile. Não dispenso o desenvolvimento baseado em testes e o uso de metodologias ágeis."
 	}],
-	"sponsorships": [],
+	"sponsorships": [{
+		"name": "Apoio",
+		"sponsors": [{
+			"name": "Casa do Código",
+			"website":"http://www.casadocodigo.com.br",
+			"logo":"logo-casadocodigo.png"
+		},
+		{
+			"name": "Gráfica Volgraf",
+			"website":"https://www.facebook.com/pages/Volgraf/153189751526053",
+			"logo":"logo-volgraf.png"
+		}]
+	}],
 	"schedules": [{
 		"27/03": [{
 			"time": "08h00",
@@ -67,11 +73,11 @@
 			"time": "10h00",
 			"talks": [
 			{
-				"title": "Aprendendo expressão regular de uma vez por todas",
-				"description": "Expressão Regular é um poderoso recurso que pode ser usado por um editor de texto para busca e substrituição de palavras ou em linguagens de programação para validações de entrada de dados.",
+				"title": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "Sérgio Bohrer Reis",
-					"title": "Desenvolvedor C++ e Back-end"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
