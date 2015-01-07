@@ -14,7 +14,13 @@
 	},
 
 	"speakers": [{
-		"photo": "palestrante.jpg",
+		"photo": "palestrante1.jpg",
+		"name": "Henrique Bastos",
+		"title": "Welcome to the Django",
+		"bio": "Henrique Bastos é inquieto e empreendedor. Adora aplicar tecnologias para iniciativas em rede que promovam autonomia de pessoas comuns."
+	},
+	{
+		"photo": "palestrante2.jpg",
 		"name": "Sérgio Bohrer Reis",
 		"title": "Analista Programador na GAS Tecnologia",
 		"bio": "Desenvolvedor C++ e PHP experiente e engatinhando no mundo mobile. Não dispenso o desenvolvimento baseado em testes e o uso de metodologias ágeis."
@@ -49,11 +55,11 @@
 			"time": "09h00",
 			"talks": [
 			{
-				"title": "Aprendendo expressão regular de uma vez por todas",
-				"description": "Expressão Regular é um poderoso recurso que pode ser usado por um editor de texto para busca e substrituição de palavras ou em linguagens de programação para validações de entrada de dados.",
+				"title": "Freelancer Lifestyle",
+				"description": "Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar visões, estratégias e práticas importantes para quem quer esculpir um estilo de vida para viver a vida nos seus próprios termos.",
 				"speakers":[{
-					"name": "Sérgio Bohrer Reis",
-					"title": "Desenvolvedor"
+					"name": "Henrique Bastos",
+					"title": "Welcome to the Django"
 				}]
 			}]
 		},
@@ -61,11 +67,11 @@
 			"time": "10h00",
 			"talks": [
 			{
-				"title": "A definir",
-				"description": "",
+				"title": "Aprendendo expressão regular de uma vez por todas",
+				"description": "Expressão Regular é um poderoso recurso que pode ser usado por um editor de texto para busca e substrituição de palavras ou em linguagens de programação para validações de entrada de dados.",
 				"speakers":[{
-					"name": "",
-					"title": ""
+					"name": "Sérgio Bohrer Reis",
+					"title": "Desenvolvedor C++ e Back-end"
 				}]
 			}]
 		},
