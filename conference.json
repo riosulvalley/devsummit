@@ -16,49 +16,10 @@
 	"speakers": [{
 		"photo": "palestrante.jpg",
 		"name": "Sérgio Bohrer Reis",
-		"title": "Aprendendo expressão regular de uma vez por todas",
-		"bio": "Expressão Regular é um poderoso recurso que pode ser usado por um editor de texto para busca e substrituição de palavras ou em linguagens de programação para validações de entrada de dados."
-	},
-	{
-		"photo": "palestrante2.jpg",
-		"name": "Serginhox",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
-	},
-	{
-		"photo": "palestrante3.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
-	},
-	{
-		"photo": "palestrante4.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
-	},
-	{
-		"photo": "palestrante5.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+		"title": "Analista Programador na GAS Tecnologia",
+		"bio": "Desenvolvedor C++ e PHP experiente e engatinhando no mundo mobile. Não dispenso o desenvolvimento baseado em testes e o uso de metodologias ágeis."
 	}],
-	"sponsorships": [{
-		"name": "Diamond",
-		"sponsors": [{
-			"name": "UGB",
-			"website":"http://ugb.edu.br",
-			"logo":"sponsor.jpg"
-		}]
-	},
-	{
-		"name": "Support",
-		"sponsors": [{
-			"name": "Gráfica Volgraf",
-			"website":"https://www.facebook.com/pages/Volgraf",
-			"logo":"logo-volgraf.png"
-		}]
-	}],
+	"sponsorships": [],
 	"schedules": [{
 		"27/03": [{
 			"time": "08h00",
@@ -101,10 +62,10 @@
 			"talks": [
 			{
 				"title": "A definir",
-				"description": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "A definir",
-					"title": "A definir"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -113,10 +74,10 @@
 			"talks": [
 			{
 				"title": "A definir",
-				"description": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "A definir",
-					"title": "A definir"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -137,10 +98,10 @@
 			"talks": [
 			{
 				"title": "A definir",
-				"description": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "A definir",
-					"title": "A definir"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -149,10 +110,10 @@
 			"talks": [
 			{
 				"title": "A definir",
-				"description": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "A definir",
-					"title": "A definir"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -173,10 +134,10 @@
 			"talks": [
 			{
 				"title": "A definir",
-				"description": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "A definir",
-					"title": "A definir"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -185,10 +146,10 @@
 			"talks": [
 			{
 				"title": "A definir",
-				"description": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "A definir",
-					"title": "A definir"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},

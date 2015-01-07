@@ -150,7 +150,7 @@
             <img src="images/foto-hotel.jpg" alt="Faro Hotel" class="faro-hotel">
 
             <address class="event-address">
-              <p>O evento vai ser realizado no <span><%=place.name %> em <%=place.city %> </span></p>
+              <p>O evento vai ser realizado na <span><%=place.name %> em <%=place.city %> </span></p>
             </address>
 
             <a href="<%=place.map%>" class="more-info">Mapa</a>
@@ -160,24 +160,26 @@
         <section class="sponsors">
           <article class="row">
             <h1>PATROCINADORES</h1>
-			
-			<%for(var i1 = 0; i1 < sponsorships.length; i1++) {
-				var sponsorship = sponsorships[i1];%>
-				<div>
-					<% if (sponsorship.sponsors) { %>
-						<div class="col-md-4">
-							<h2 class="title support-title"><%=sponsorship.name%></h2>
-							<%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
-								var sponsor = sponsorship.sponsors[i2];%>
-								<div class="sponsor">
-									<a href="<%=sponsor.website%>" target="_blannk"><img src="images/<%=sponsor.logo%>" alt="<%=sponsor.name%>" class="sponsor-logo"></a>
-								</div>
-							<%}%>
-						</div>
-					<%}%>
-				</div>
-			<%}%>
-
+            <%if (sponsorships.length > 0) { %>
+                <%for(var i1 = 0; i1 < sponsorships.length; i1++) {
+                    var sponsorship = sponsorships[i1];%>
+                    <div>
+                    <% if (sponsorship.sponsors) { %>
+                        <div class="col-md-4">
+                            <h2 class="title support-title"><%=sponsorship.name%></h2>
+                            <%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
+                                var sponsor = sponsorship.sponsors[i2];%>
+                                <div class="sponsor">
+                                    <a href="<%=sponsor.website%>" target="_blank"><img src="images/<%=sponsor.logo%>" alt="<%=sponsor.name%>" class="sponsor-logo"></a>
+                                </div>
+                            <%}%>
+                        </div>
+                    <%}%>
+                    </div>
+                <%}
+            } else {%>
+                <div class="row"><a href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs/edit?usp=sharing" target="_blank">Seja um patrocinador</a></div>
+            <%}%>
           </article>
         </section>
 
