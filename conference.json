@@ -14,53 +14,40 @@
 	},
 
 	"speakers": [{
-		"photo": "palestrante.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+		"photo": "palestrante1.jpg",
+		"name": "Henrique Bastos",
+		"title": "Welcome to the Django",
+		"bio": "Henrique Bastos é inquieto e empreendedor. Adora aplicar tecnologias para iniciativas em rede que promovam autonomia de pessoas comuns."
 	},
 	{
 		"photo": "palestrante2.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
-	},
-	{
-		"photo": "palestrante3.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
-	},
-	{
-		"photo": "palestrante4.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
-	},
-	{
-		"photo": "palestrante5.jpg",
-		"name": "Afonso F",
-		"title": "Software Engineer",
-		"bio": "Afonso Loren Ipsum lalalalalall laallala ala al allaaalalal"
+		"name": "Sérgio Bohrer Reis",
+		"title": "Analista Programador na GAS Tecnologia",
+		"bio": "Desenvolvedor C++ e PHP experiente e engatinhando no mundo mobile. Não dispenso o desenvolvimento baseado em testes e o uso de metodologias ágeis."
 	}],
-	"sponsorships": [{
-		"name": "Diamond",
-		"sponsors": [{
-			"name": "UGB",
-			"website":"http://ugb.edu.br",
-			"logo":"sponsor.jpg"
-		}]
-	}],
+	"sponsorships": [],
 	"schedules": [{
 		"27/03": [{
 			"time": "08h00",
 			"talks": [
 			{
-				"title": "Teste 123",
-				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"title": "Credenciamento",
+				"description": "",
 				"speakers":[{
-					"name": "Afonso",
-					"title": "developer"
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "08h30",
+			"talks": [
+			{
+				"title": "Abertura oficial",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -68,11 +55,11 @@
 			"time": "09h00",
 			"talks": [
 			{
-				"title": "Teste 123",
-				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"title": "Freelancer Lifestyle",
+				"description": "Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar visões, estratégias e práticas importantes para quem quer esculpir um estilo de vida para viver a vida nos seus próprios termos.",
 				"speakers":[{
-					"name": "Afonso",
-					"title": "developer"
+					"name": "Henrique Bastos",
+					"title": "Welcome to the Django"
 				}]
 			}]
 		},
@@ -80,11 +67,11 @@
 			"time": "10h00",
 			"talks": [
 			{
-				"title": "Teste 123",
-				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"title": "Aprendendo expressão regular de uma vez por todas",
+				"description": "Expressão Regular é um poderoso recurso que pode ser usado por um editor de texto para busca e substrituição de palavras ou em linguagens de programação para validações de entrada de dados.",
 				"speakers":[{
-					"name": "Afonso",
-					"title": "developer"
+					"name": "Sérgio Bohrer Reis",
+					"title": "Desenvolvedor C++ e Back-end"
 				}]
 			}]
 		},
@@ -92,11 +79,11 @@
 			"time": "11h00",
 			"talks": [
 			{
-				"title": "Teste 123",
-				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"title": "A definir",
+				"description": "",
 				"speakers":[{
-					"name": "Afonso",
-					"title": "developer"
+					"name": "",
+					"title": ""
 				}]
 			}]
 		},
@@ -104,11 +91,83 @@
 			"time": "12h00",
 			"talks": [
 			{
-				"title": "Teste 123",
-				"description": "sadfasdfjkasjdfkjasd fkljasdklf jasd klfj askdlfj asdlkfja ksdlfja ksdlfjasdlk ",
+				"title": "Almoço",
+				"description": "",
 				"speakers":[{
-					"name": "Afonso",
-					"title": "developer"
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "13h00",
+			"talks": [
+			{
+				"title": "A definir",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "14h00",
+			"talks": [
+			{
+				"title": "A definir",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "15h00",
+			"talks": [
+			{
+				"title": "Coffee Break",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "15h30",
+			"talks": [
+			{
+				"title": "A definir",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "16h30",
+			"talks": [
+			{
+				"title": "A definir",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
+				}]
+			}]
+		},
+		{
+			"time": "17h30",
+			"talks": [
+			{
+				"title": "Encerramento oficial",
+				"description": "",
+				"speakers":[{
+					"name": "",
+					"title": ""
 				}]
 			}]
 		}]
