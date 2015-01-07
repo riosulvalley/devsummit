@@ -14,7 +14,7 @@
 
   <meta property="og:description" content="<%=description%>">
 
-  <meta property="og:image" content="<%=_url("images/og-cover.png") %>">
+  <meta property="og:image" content="images/og-cover.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="600"> 
@@ -160,26 +160,26 @@
         <section class="sponsors">
           <article class="row">
             <h1>PATROCINADORES</h1>
-            <%if (sponsorships.length > 0) { %>
-                <%for(var i1 = 0; i1 < sponsorships.length; i1++) {
-                    var sponsorship = sponsorships[i1];%>
-                    <div>
-                    <% if (sponsorship.sponsors) { %>
-                        <div class="col-md-4">
-                            <h2 class="title support-title"><%=sponsorship.name%></h2>
-                            <%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
-                                var sponsor = sponsorship.sponsors[i2];%>
-                                <div class="sponsor">
-                                    <a href="<%=sponsor.website%>" target="_blank"><img src="images/<%=sponsor.logo%>" alt="<%=sponsor.name%>" class="sponsor-logo"></a>
-                                </div>
-                            <%}%>
-                        </div>
-                    <%}%>
-                    </div>
-                <%}
-            } else {%>
-                <div class="row"><a href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs/edit?usp=sharing" target="_blank">Seja um patrocinador</a></div>
-            <%}%>
+
+		
+			<%for(var i1 = 0; i1 < sponsorships.length; i1++) {
+				var sponsorship = sponsorships[i1];%>
+				<div>
+				<% if (sponsorship.sponsors) { %>
+					<div class="col-md-12">
+						<h2 class="title support-title"><%=sponsorship.name%></h2>
+						<%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
+							var sponsor = sponsorship.sponsors[i2];%>
+							<div class="sponsor">
+								<a title="<%=sponsor.name%>" href="<%=sponsor.website%>" target="_blank"><img src="images/<%=sponsor.logo%>" alt="<%=sponsor.name%>" class="sponsor-logo"></a>
+							</div>
+						<%}%>
+					</div>
+				<%}%>
+				</div>
+			<%}%>
+			<div class="row"><a style="border: 2px dashed #3498db;font-size: 20px;vertical-align: middle;line-height: 285px; margin-top: 50px; padding: 25px" href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs" target="_blank">Seja um patrocinador</a></div>
+
           </article>
         </section>
 

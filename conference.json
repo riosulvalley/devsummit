@@ -1,8 +1,8 @@
 {
 	"released": true,
-	"url": "http://webdevsummit.com.br",
+	"url": "http://webdevsummit.com",
 	"eventick":"http://www.eventick.com.br/web-dev-summit/",
-	"analytics": "UA-XXXXX-X",
+	"analytics": "UA-58353211-1",
 	"name": "Web Dev Summit 2015",
 	"slogan": "Conferência de desenvolvimento web no Sul Fluminense",
 	"description": "Conferência de desenvolvimento web no Sul Fluminense",
@@ -20,6 +20,19 @@
 		"bio": "Henrique Bastos é inquieto e empreendedor. Adora aplicar tecnologias para iniciativas em rede que promovam autonomia de pessoas comuns."
 	}],
 	"sponsorships": [{
+		"name": "Realização",
+		"sponsors": [{
+			"name": "Afonso F",
+			"website":"http://afonsof.com",
+			"logo":"afonsof.jpg"
+		},
+		{
+			"name": "Sergio Bohrer",
+			"website":"https://www.linkedin.com/in/sergiobohrerreis",
+			"logo":"sergio.jpg"
+		}]
+	},
+	{
 		"name": "Apoio",
 		"sponsors": [{
 			"name": "Casa do Código",
