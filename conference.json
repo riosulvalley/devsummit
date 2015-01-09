@@ -35,6 +35,10 @@
 	{
 		"name": "Apoio",
 		"sponsors": [{
+			"name": "UGB",
+			"website":"http://www.ferp.br",
+			"logo":"ugb.jpg"
+		},{
 			"name": "Casa do Código",
 			"website":"http://www.casadocodigo.com.br",
 			"logo":"logo-casadocodigo.png"
