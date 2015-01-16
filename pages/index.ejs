@@ -53,19 +53,26 @@
 
         <section class="photos" style="display: none"></section>
 
+        <%if( event.description ) {%>
+        <section class="event">
+            <div class="description"><%=event.description%></div>
+        </section>
+        <%}%>
+
         <section class="speakers">
           <article class="row">
             <h1 class="title">PALESTRANTES</h1>
+                <%if(callforpapers.show) {%>
+				<div class="col-md-4">
+                    <div style="border: 2px dashed #3498db;font-size: 20px;vertical-align: middle;line-height: 278px; margin-bottom: 1em">
+				        <div class="flipper">
+					       <div class="call"><a href="<%=callforpapers.url%>" target="_blank"><%=callforpapers.title%></a></div>
+				        </div>
+				    </div>
+                </div>
+                <%}
 
-				<div class="col-md-4" style="border: 2px dashed #3498db;font-size: 20px;vertical-align: middle;line-height: 285px;">
-				  <div class="flipper">
-					<div class="call">
-						<a href="http://goo.gl/forms/awRVSscHlP" target="_blank">Seja um palestrante!</a>
-					</div>
-				  </div>
-				</div>			
-			
-			<%for(var i = 0; i < speakers.length; i++) {
+                for(var i = 0; i < speakers.length; i++) {
 				var speaker = speakers[i];%>
 				<div class="col-md-4 flip-container">
 				  <div class="flipper">
@@ -108,13 +115,9 @@
 					<td class="time">
 					  <time><%=schedule.time%></time>
 					</td>
-					
-					
-					
 					<%for(var i3 = 0; i3 < schedule.talks.length; i3++) {
 						var talk = schedule.talks[i3];%>
-					
-						<td class="event">
+						<td class="event-detail">
 							<ul class="schedule-list">
 								<li>
 								  <h2 class="header">
