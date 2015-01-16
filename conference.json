@@ -12,7 +12,14 @@
 		"city": "Volta Redonda - RJ",
 		"map": "https://www.google.com/maps/place/UGB/@-22.5082207,-44.0897298,17z"
 	},
-
+	"event": {
+		"description": "Vem aí um workshop com várias palestras voltadas ao desenvolvimento web. Vamos ter um dia inteiro para interagir, discutir, conhecer pessoas e nos divertir. A ideia do evento é disseminar o conhecimento web na região e atualizar os desenvolvedores com as tendências web. Esperamos neste evento estudantes, empresários, profissionais da área, curiosos e apaixonados pela web de uma forma geral."
+	},
+	"callforpapers": {
+		"show":true,
+		"title":"Seja um palestrante!",
+		"url": "http://goo.gl/forms/awRVSscHlP"
+	},
 	"speakers": [{
 		"photo": "palestrantes/henrique.jpg",
 		"name": "Henrique Bastos",
