@@ -7,14 +7,14 @@
 	"slogan": "Conferência de desenvolvimento web no Sul Fluminense",
 	"description": "Conferência de desenvolvimento web no Sul Fluminense",
 	"date": "21 de Março",
+	"description": "Vem aí um workshop com várias palestras voltadas para o desenvolvimento web. Vamos ter um dia inteiro para interagir, discutir, conhecer pessoas e nos divertir. A ideia do evento é disseminar o conhecimento na região e atualizar os desenvolvedores com as tendências web. Esperamos neste evento estudantes, empresários, profissionais da área, curiosos e apaixonados pela web de uma forma geral. Increva-se!",
+	
 	"place": {
 		"name": "UGB",
 		"city": "Volta Redonda - RJ",
 		"map": "https://www.google.com/maps/place/UGB/@-22.5082207,-44.0897298,17z"
 	},
-	"event": {
-		"description": "Vem aí um workshop com várias palestras voltadas ao desenvolvimento web. Vamos ter um dia inteiro para interagir, discutir, conhecer pessoas e nos divertir. A ideia do evento é disseminar o conhecimento web na região e atualizar os desenvolvedores com as tendências web. Esperamos neste evento estudantes, empresários, profissionais da área, curiosos e apaixonados pela web de uma forma geral."
-	},
+		
 	"callforpapers": {
 		"show":true,
 		"title":"Seja um palestrante!",
@@ -30,25 +30,36 @@
 		"photo": "palestrantes/carlos.jpg",
 		"name": "Carlos Oliveira",
 		"title": "Líder de Desenvolvimento, B2W Digital",
-		"bio": ""
+		"bio": "Líder de desenvolvimento na empresa B2W Digital e proficiente nas linguagens AngularJS, Ruby, Rails e Javascript"
 	},
 	{
 		"photo": "palestrantes/igor.jpg",
 		"name": "Igor Torres",
 		"title": "Líder de Design Mobile, B2W Digital",
-		"bio": "Após passar pela agência Skidun, fundou uma empresa de desenvolvimento mobile, Appkraft que publicou 10 aplicativos que atingiu quase um milhão de downloads. Após esses resultados a Ideais, empresa responsável pela TI da B2W Digital, investiu na Appkraft, criando a Ideais Mobile para o desenvolvimento dos apps da B2W. A B2W comprou a Ideais e Ideais Mobile e hoje desempenha a função de coordenador de usabilidade mobile na B2W Digital."
+		"bio": "Depois da agência Skidun, fundou a Appkraft que publicou 10 aplicativos com quase um milhão de downloads. Após esses resultados a Ideais investiu na Appkraft, criando a Ideais Mobile para o desenvolvimento dos apps da B2W. A B2W comprou a Ideais e hoje é coordenador de usabilidade mobile na B2W Digital."
+	},
+	{
+		"photo": "palestrantes/marlon.jpg",
+		"name": "Marlon Itaboray",
+		"title": "Designer de Interação & Evangelista de UX",
+		"bio": "Designer formado pela UniFOA, começou trabalhando com interfaces web e descobriu a disciplina de UX em 2010. Desde então estuda, aprende, pratica e compartilha tudo sobre experiência do usuário. Atualmente trabalha como designer de interação atuando com pesquisa de usuários, prototipação e visualização de dados em interfaces digitais."
 	}],
 	"sponsorships": [{
 		"name": "Realização",
 		"sponsors": [{
 			"name": "Afonso F",
 			"website":"http://afonsof.com",
-			"logo":"afonsof.jpg"
+			"logo":"sponsors/afonsof.jpg"
 		},
 		{
 			"name": "Sergio Bohrer",
 			"website":"https://www.linkedin.com/in/sergiobohrerreis",
-			"logo":"sergio.jpg"
+			"logo":"sponsors/sergio.jpg"
+		},
+		{
+			"name": "Google Developers Group Rio",
+			"website":"https://plus.google.com/104464728601797437216",
+			"logo":"sponsors/gdgrio.png"
 		}]
 	},
 	{
@@ -56,20 +67,25 @@
 		"sponsors": [{
 			"name": "UGB",
 			"website":"http://www.ferp.br",
-			"logo":"ugb.jpg"
+			"logo":"sponsors/ugb.jpg"
 		}]
 	},
 	{
 		"name": "Apoio",
 		"sponsors": [{
+			"name": "Google",
+			"website":"http://www.google.com/intl/en/about",
+			"logo":"sponsors/google.png"
+		},
+		{
 			"name": "Casa do Código",
 			"website":"http://www.casadocodigo.com.br",
-			"logo":"logo-casadocodigo.png"
+			"logo":"sponsors/logo-casadocodigo.png"
 		},
 		{
 			"name": "Gráfica Volgraf",
 			"website":"https://www.facebook.com/pages/Volgraf/153189751526053",
-			"logo":"logo-volgraf.png"
+			"logo":"sponsors/logo-volgraf.png"
 		}]
 	}],
 	"schedules": [{
@@ -101,23 +117,20 @@
 			"time": "09h00",
 			"talks": [
 			{
-				"title": "Freelancer Lifestyle",
-				"description": "Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar visões, estratégias e práticas importantes para quem quer esculpir um estilo de vida para viver a vida nos seus próprios termos.",
-				"speakers":[{
-					"name": "Henrique Bastos",
-					"title": "Welcome to the Django"
-				}]
+				"title": "A definir",
+				"description": "",
+				"speakers":[]
 			}]
 		},
 		{
 			"time": "10h00",
 			"talks": [
 			{
-				"title": "A definir",
-				"description": "",
+				"title": "AI, UI, UX, WTF?",
+				"description": "Ao longo dos anos nossos sites, apps e serviços tem se tornado mais complexos com o avanço da tecnologia. O sucesso de tudo isso depende apenas de uma coisa: como os usuários pensam. Vários pensamentos passam pela mente de uma pessoa no momento em que ela interage com um produto ou serviço, e precisamos nos esforçar para trabalhar baseados neles. Nessa palestra vamos entender um pouco sobre a disciplina de experiência do usuário e como ela se encaixa dentro do desenvolvimento de um projeto.",
 				"speakers":[{
-					"name": "",
-					"title": ""
+					"name": "Marlon Itaboray",
+					"title": "Designer de Interação & Evangelista de UX"
 				}]
 			}]
 		},
@@ -125,11 +138,11 @@
 			"time": "11h00",
 			"talks": [
 			{
-				"title": "A definir",
+				"title": "AngularJS",
 				"description": "",
 				"speakers":[{
-					"name": "",
-					"title": ""
+					"name": "Carlos Oliveira",
+					"title": "Líder de Desenvolvimento, B2W Digital"
 				}]
 			}]
 		},
@@ -139,10 +152,7 @@
 			{
 				"title": "Almoço",
 				"description": "",
-				"speakers":[{
-					"name": "",
-					"title": ""
-				}]
+				"speakers":[]
 			}]
 		},
 		{
@@ -151,21 +161,18 @@
 			{
 				"title": "A definir",
 				"description": "",
-				"speakers":[{
-					"name": "",
-					"title": ""
-				}]
+				"speakers":[]
 			}]
 		},
 		{
 			"time": "14h00",
 			"talks": [
 			{
-				"title": "A definir",
+				"title": "Mobile First",
 				"description": "",
 				"speakers":[{
-					"name": "",
-					"title": ""
+					"name": "Igor Torres",
+					"title": "Líder de Design Mobile, B2W Digital"
 				}]
 			}]
 		},
@@ -187,21 +194,18 @@
 			{
 				"title": "A definir",
 				"description": "",
-				"speakers":[{
-					"name": "",
-					"title": ""
-				}]
+				"speakers":[]
 			}]
 		},
 		{
 			"time": "16h30",
 			"talks": [
 			{
-				"title": "A definir",
-				"description": "",
+				"title": "Freelancer Lifestyle",
+				"description": "Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar visões, estratégias e práticas importantes para quem quer esculpir um estilo de vida para viver a vida nos seus próprios termos.",
 				"speakers":[{
-					"name": "",
-					"title": ""
+					"name": "Henrique Bastos",
+					"title": "Welcome to the Django"
 				}]
 			}]
 		},
@@ -209,12 +213,9 @@
 			"time": "17h30",
 			"talks": [
 			{
-				"title": "Encerramento oficial",
+				"title": "Encerramento Oficial", 
 				"description": "",
-				"speakers":[{
-					"name": "",
-					"title": ""
-				}]
+				"speakers":[]
 			}]
 		}]
 	}]

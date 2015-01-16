@@ -53,9 +53,9 @@
 
         <section class="photos" style="display: none"></section>
 
-        <%if( event.description ) {%>
+        <%if( description ) {%>
         <section class="event">
-            <div class="description"><%=event.description%></div>
+            <article class="row"><%=description%></article>
         </section>
         <%}%>
 
@@ -64,7 +64,7 @@
             <h1 class="title">PALESTRANTES</h1>
                 <%if(callforpapers.show) {%>
 				<div class="col-md-4">
-                    <div style="border: 2px dashed #3498db;font-size: 20px;vertical-align: middle;line-height: 278px; margin-bottom: 1em">
+                    <div class="invitation">
 				        <div class="flipper">
 					       <div class="call"><a href="<%=callforpapers.url%>" target="_blank"><%=callforpapers.title%></a></div>
 				        </div>
@@ -181,7 +181,7 @@
 				<%}%>
 				</div>
 			<%}%>
-			<div class="row"><a style="border: 2px dashed #3498db;font-size: 20px;vertical-align: middle;line-height: 285px; margin-top: 50px; padding: 25px" href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs" target="_blank">Seja um patrocinador</a></div>
+			<div class="row"><a class="invitation" href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs" target="_blank">Seja um patrocinador</a></div>
 
           </article>
         </section>
