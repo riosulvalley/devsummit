@@ -14,10 +14,22 @@
 	},
 
 	"speakers": [{
-		"photo": "palestrante1.jpg",
+		"photo": "palestrantes/henrique.jpg",
 		"name": "Henrique Bastos",
 		"title": "Welcome to the Django",
 		"bio": "Henrique Bastos é inquieto e empreendedor. Adora aplicar tecnologias para iniciativas em rede que promovam autonomia de pessoas comuns."
+	},
+	{
+		"photo": "palestrantes/carlos.jpg",
+		"name": "Carlos Oliveira",
+		"title": "Líder de Desenvolvimento, B2W Digital",
+		"bio": ""
+	},
+	{
+		"photo": "palestrantes/igor.jpg",
+		"name": "Igor Torres",
+		"title": "Líder de Design Mobile, B2W Digital",
+		"bio": "Após passar pela agência Skidun, fundou uma empresa de desenvolvimento mobile, Appkraft que publicou 10 aplicativos que atingiu quase um milhão de downloads. Após esses resultados a Ideais, empresa responsável pela TI da B2W Digital, investiu na Appkraft, criando a Ideais Mobile para o desenvolvimento dos apps da B2W. A B2W comprou a Ideais e Ideais Mobile e hoje desempenha a função de coordenador de usabilidade mobile na B2W Digital."
 	}],
 	"sponsorships": [{
 		"name": "Realização",
@@ -33,12 +45,16 @@
 		}]
 	},
 	{
-		"name": "Apoio",
+		"name": "Bronze",
 		"sponsors": [{
 			"name": "UGB",
 			"website":"http://www.ferp.br",
 			"logo":"ugb.jpg"
-		},{
+		}]
+	},
+	{
+		"name": "Apoio",
+		"sponsors": [{
 			"name": "Casa do Código",
 			"website":"http://www.casadocodigo.com.br",
 			"logo":"logo-casadocodigo.png"
