@@ -62,17 +62,8 @@
         <section class="speakers">
           <article class="row">
             <h1 class="title">PALESTRANTES</h1>
-                <%if(callforpapers.show) {%>
-				<div class="col-md-4">
-                    <div class="invitation">
-				        <div class="flipper">
-					       <div class="call"><a href="<%=callforpapers.url%>" target="_blank"><%=callforpapers.title%></a></div>
-				        </div>
-				    </div>
-                </div>
-                <%}
 
-                for(var i = 0; i < speakers.length; i++) {
+			<%for(var i = 0; i < speakers.length; i++) {
 				var speaker = speakers[i];%>
 				<div class="col-md-4 flip-container">
 				  <div class="flipper">
@@ -86,7 +77,17 @@
 					</div>
 				  </div>
 				</div>
-			<%}%>	
+			<%}%>
+
+                <%if(callforpapers.show) {%>
+				<div class="col-md-4">
+                    <div class="invitation">
+				        <div class="flipper">
+					       <div class="call"><a href="<%=callforpapers.url%>" target="_blank"><%=callforpapers.title%></a></div>
+				        </div>
+				    </div>
+                </div>
+                <%}%>			
 			
           </article>
         </section>

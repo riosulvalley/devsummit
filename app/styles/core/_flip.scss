@@ -26,7 +26,7 @@
       display: block;
       font-weight: 600;
       font-size: 0.925em;
-      margin-bottom: 2em;
+      margin-bottom: 1em;
     }
 
     .speaker-description {
@@ -36,6 +36,13 @@
       margin-bottom: 5em;
     }
   }
+}
+
+
+@media(max-width: 1142px) {
+    .speaker-description {
+      font-size: 0.66em !important;
+    }
 }
 
 
@@ -73,4 +80,7 @@
     left: 0;
     transform: rotateY(180deg);
   }
+  
+
+
 }

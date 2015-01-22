@@ -28,9 +28,9 @@
 	},
 	{
 		"photo": "palestrantes/carlos.jpg",
-		"name": "Carlos Oliveira",
+		"name": "Carlos Oliveira", 
 		"title": "Líder de Desenvolvimento, B2W Digital",
-		"bio": "Líder de desenvolvimento na empresa B2W Digital e proficiente nas linguagens AngularJS, Ruby, Rails e Javascript"
+		"bio": "Apaixonado por tecnologia começou com 14 anos como desenvolvedor e designer e aos 19 anos já liderava projetos web. Formado em ciência da computação pela UFRJ, foi o primeiro colocado na seleção do mestrado da COPPE/UFRJ em BD. Com 24 anos abandonou o mestrado para fundar a sua primeira startup. Hoje é líder frontend na B2W Digital"
 	},
 	{
 		"photo": "palestrantes/igor.jpg",
@@ -43,6 +43,18 @@
 		"name": "Marlon Itaboray",
 		"title": "Designer de Interação & Evangelista de UX",
 		"bio": "Designer formado pela UniFOA, começou trabalhando com interfaces web e descobriu a disciplina de UX em 2010. Desde então estuda, aprende, pratica e compartilha tudo sobre experiência do usuário. Atualmente trabalha como designer de interação atuando com pesquisa de usuários, prototipação e visualização de dados em interfaces digitais."
+	},
+	{
+		"photo": "palestrantes/hanneli.jpg",
+		"name": "Hanneli Tavante",
+		"title": "Desenvolvedora de Software, Codeminer42",
+		"bio": "(a.k.a @hannelita) é uma desenvolvedora fissurada por programar, aprender novas linguagens, frameworks, explodir capacitores, programar em C pra relaxar e comittar código útil (ou não) em projetos Open Source aleatórios que encontra vasculhando Githubs alheios. Ela também gosta de café, especialmente os do Starbucks."
+	},
+	{
+		"photo": "palestrantes/nardini.jpg",
+		"name": "Bruno Nardini",
+		"title": "Scrum Master, Hotel Urbano",
+		"bio": "Trabalha e se diverte a mais de 15 anos com desenvolvimento de software, desde o suporte, passando pelo desenvolvimento, liderança, até a gestão, as vezes até como palestrante. Hoje é Scrum Master no Hotel Urbano e nas horas livres mantém alguns cursos online na Nardini Academy."
 	}],
 	"sponsorships": [{
 		"name": "Realização",
@@ -55,12 +67,8 @@
 			"name": "Sergio Bohrer",
 			"website":"https://www.linkedin.com/in/sergiobohrerreis",
 			"logo":"sponsors/sergio.jpg"
-		},
-		{
-			"name": "Google Developers Group Rio",
-			"website":"https://plus.google.com/104464728601797437216",
-			"logo":"sponsors/gdgrio.png"
-		}]
+		}
+		]
 	},
 	{
 		"name": "Bronze",
@@ -72,11 +80,7 @@
 	},
 	{
 		"name": "Apoio",
-		"sponsors": [{
-			"name": "Google",
-			"website":"http://www.google.com/intl/en/about",
-			"logo":"sponsors/google.png"
-		},
+		"sponsors": [
 		{
 			"name": "Casa do Código",
 			"website":"http://www.casadocodigo.com.br",
@@ -138,8 +142,8 @@
 			"time": "11h00",
 			"talks": [
 			{
-				"title": "AngularJS",
-				"description": "",
+				"title": "AngularJS: tendência ou exagero?",
+				"description": "Uma visão geral sobre o framework, curva de aprendizado e aplicações. Vale mesmo a pena usar AngularJS em qualquer projeto?",
 				"speakers":[{
 					"name": "Carlos Oliveira",
 					"title": "Líder de Desenvolvimento, B2W Digital"
@@ -159,9 +163,12 @@
 			"time": "13h00",
 			"talks": [
 			{
-				"title": "A definir",
-				"description": "",
-				"speakers":[]
+				"title": "7 motivos para escolher o Node.js",
+				"description": "Você já ouviu falar sobre o Node.js? Conhece alguma empresa ou projeto que o utilize? Será que é bom? E o mercado de trabalho? Vem na cor preta? Calma! Deixe as perguntas para a palestra! =)",
+				"speakers":[{
+					"name": "Bruno Nardini",
+					"title": "Scrum Master, Hotel Urbano"
+				}]
 			}]
 		},
 		{
@@ -192,9 +199,12 @@
 			"time": "15h30",
 			"talks": [
 			{
-				"title": "A definir",
-				"description": "",
-				"speakers":[]
+				"title": "Dia a dia com grafos, Neo4j e Ruby",
+				"description": "Já notou que seria possível descrever diversas situações com grafos? Grafos não são apenas parte de alguma matéria chata na Universidade, eles podem (e são) usados em muitas situações. Essa palestra mostrará alguns cenários onde a modelarem com grafos pode auxiliar bastante a resolução de problemas, especialmente fazendo uso do Ne4j, um banco orientado a grafos. Nativo para Java, será apresentado como utilizá-lo em Ruby.",
+				"speakers":[{
+					"name": "Hanneli Tavante",
+					"title": "Desenvolvedora de Software, Codeminer42"
+				}]
 			}]
 		},
 		{
