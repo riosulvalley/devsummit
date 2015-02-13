@@ -90,6 +90,16 @@
       ]
     },
     {
+      "name": "Prata",
+      "sponsors": [
+        {
+          "name": "Desenvolvendo.vc",
+          "website": "http://www.desenvolvendo.vc",
+          "logo": "sponsors/desenvolvendovc.png"
+        }
+      ]
+    },
+    {
       "name": "Bronze",
       "sponsors": [
         {
@@ -287,27 +297,27 @@
           "time": "16h30",
           "talks": [
             {
-              "title": "Freelancer Lifestyle",
-              "description": "Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar visões, estratégias e práticas importantes para quem quer esculpir um estilo de vida para viver a vida nos seus próprios termos.",
-              "speakers": [
-                {
-                  "name": "Henrique Bastos",
-                  "title": "Welcome to the Django"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "time": "17h30",
-          "talks": [
-            {
               "title": "Desenvolvimento de Startups",
               "description": "Você é desenvolvedor ou até mesmo empreendedor? Então poderá tirar bastante proveito desta palestra pois depois de muita leitura e tentativas, venho compartilhar as principais falhas, acertos, ferramentas e aprendizados que obtive nesta caminhada emocionante de desenvolvimento de startups.",
               "speakers": [
                 {
                   "name": "Igor de Oliveira Sá",
                   "title": "Desenvolvimento de Startups"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": "17h00",
+          "talks": [
+            {
+              "title": "Freelancer Lifestyle",
+              "description": "Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar visões, estratégias e práticas importantes para quem quer esculpir um estilo de vida para viver a vida nos seus próprios termos.",
+              "speakers": [
+                {
+                  "name": "Henrique Bastos",
+                  "title": "Welcome to the Django"
                 }
               ]
             }
