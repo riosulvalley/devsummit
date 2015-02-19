@@ -14,7 +14,7 @@
     "map": "https://www.google.com/maps/place/UGB/@-22.5082207,-44.0897298,17z"
   },
   "callforpapers": {
-    "show": true,
+    "show": false,
     "title": "Seja um palestrante!",
     "url": "http://goo.gl/forms/awRVSscHlP"
   },
@@ -86,6 +86,16 @@
           "name": "Google Developers Group Rio",
           "website": "https://plus.google.com/104464728601797437216",
           "logo": "sponsors/gdgrio.png"
+        }
+      ]
+    },
+    {
+      "name": "Diamante",
+      "sponsors": [
+        {
+          "name": "Microcamp Volta Redonda",
+          "website": "http://www.microcamp.com.br/",
+          "logo": "sponsors/microcamp.png"
         }
       ]
     },
@@ -302,7 +312,7 @@
               "speakers": [
                 {
                   "name": "Igor de Oliveira Sá",
-                  "title": "Desenvolvimento de Startups"
+                  "title": "Gerente de Desenvolvimento, GAS Tecnologia"
                 }
               ]
             }
