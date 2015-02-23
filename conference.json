@@ -66,6 +66,12 @@
       "name": "Igor de Oliveira Sá",
       "title": "Gerente de Desenvolvimento, GAS Tecnologia",
       "bio": "Desenvolvedor Mobile e estudante assíduo sobre desenvolvimento de startups."
+    },
+    {
+      "photo": "palestrantes/rodrigo.jpg",
+      "name": "Rodrigo de Toledo",
+      "title": "Professor da UFRJ, sócio da Knowledge21, trainer oficial de Kanban e Management 3.0",
+      "bio": "PhD pelo INRIA na França, com graduação e mestrado pela PUC-Rio. Lecionou na PUC-Rio e desde 2010 é professor da UFRJ. Ultimamente divulga os métodos ágeis, organizando eventos como o Agile Brazil, já tendo treinado mais de 2 mil profissionais. Rodrigo é instrutor internacional da Lean Kanban University e facilitador certificado de Management 3.0."
     }
   ],
   "sponsorships": [
@@ -96,6 +102,16 @@
           "name": "Microcamp Volta Redonda",
           "website": "http://www.microcamp.com.br/",
           "logo": "sponsors/microcamp.png"
+        }
+      ]
+    },
+    {
+      "name": "Ouro",
+      "sponsors": [
+        {
+          "name": "AppCraft",
+          "website": "http://appcraft.com.br",
+          "logo": "sponsors/appcraft.png"
         }
       ]
     },
@@ -154,12 +170,7 @@
             {
               "title": "Credenciamento",
               "description": "",
-              "speakers": [
-                {
-                  "name": "",
-                  "title": ""
-                }
-              ]
+              "speakers": []
             }
           ]
         },
@@ -169,12 +180,7 @@
             {
               "title": "Abertura oficial",
               "description": "",
-              "speakers": [
-                {
-                  "name": "",
-                  "title": ""
-                }
-              ]
+              "speakers": []
             }
           ]
         },
@@ -182,9 +188,14 @@
           "time": "09h00",
           "talks": [
             {
-              "title": "A definir",
-              "description": "",
-              "speakers": []
+              "title": "Scrum Master 3.0, tudo que você deveria saber mas não deu tempo de aprender em 2 dias",
+              "description": "Em relatório recente da VersionOne, mais de 50% dos projetos no mundo usam métodos ágeis e a maior parte do conhecimento recai sobre o ScrumMaster. Nesta palestra vou falar sobre os conhecimentos esperados do ScrumMaster 3.0, respondendo perguntas como: Por que Scrum? ScrumMaster 1.0, 2.0 e 3.0, qual a diferença? O que esperar do ScrumMaster 3.0? Além de revermos os papéis do Scrum: ScrumMaster, ProductOwner e time e também outros aprendizados como: Técnicas de facilitação, Técnicas de Coaching, Como motivar indivíduos?, Escalando a agilidade, Kanban e Técnicas para atuar junto ao Product Owner.",
+              "speakers": [
+                {
+                  "name": "Rodrigo de Toledo",
+                  "title": "Professor da UFRJ, sócio da Knowledge21, trainer oficial de Kanban e Management 3.0"
+                }
+              ]
             }
           ]
         },
