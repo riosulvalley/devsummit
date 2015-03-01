@@ -29,10 +29,10 @@ module.exports = function (grunt) {
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
-	  ejs: {
-		files: ['pages/*.ejs', 'conference.json'],
-		tasks: ['build']
-	  },
+      ejs: {
+        files: ['pages/*.ejs', 'conference.json'],
+        tasks: ['build']
+      },
       bower: {
         files: ['bower.json'],
         tasks: ['wiredep']
@@ -145,7 +145,7 @@ module.exports = function (grunt) {
       },
       app: {
         src: ['<%= yeoman.app %>/index.html'],
-        ignorePath:  /\.\.\//
+        ignorePath: /\.\.\//
       },
       sass: {
         src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
@@ -218,7 +218,7 @@ module.exports = function (grunt) {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
       options: {
-        assetsDirs: ['<%= yeoman.dist %>','<%= yeoman.dist %>/images']
+        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/images']
       }
     },
 
@@ -293,6 +293,11 @@ module.exports = function (grunt) {
         }, {
           expand: true,
           cwd: '.',
+          dest: '<%= yeoman.dist %>',
+          src: ['conference.json']
+        }, {
+          expand: true,
+          cwd: '.',
           src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
           dest: '<%= yeoman.dist %>'
         }]
@@ -317,18 +322,18 @@ module.exports = function (grunt) {
       ]
     },
 
-	ejs: {
-		all: {
-			options: grunt.util._.merge(require('./conference.json'), {
-				_url: function(page) {
-					page = page || '';
-					return require('./conference.json').url + page;
-				},
-			}),
-			src: 'pages/index.ejs',
-			dest: 'app/index.html',
-		},
-	  },    
+    ejs: {
+      all: {
+        options: grunt.util._.merge(require('./conference.json'), {
+          _url: function (page) {
+            page = page || '';
+            return require('./conference.json').url + page;
+          }
+        }),
+        src: 'pages/index.ejs',
+        dest: 'app/index.html'
+      }
+    }
   });
 
 
@@ -353,7 +358,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
-	'ejs',
+    'ejs',
     'clean:dist',
     'wiredep',
     'useminPrepare',
@@ -364,7 +369,7 @@ module.exports = function (grunt) {
     'cdnify',
     'cssmin',
     'uglify',
-    'filerev',
+    //'filerev',
     'usemin',
     'htmlmin'
   ]);
