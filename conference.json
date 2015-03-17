@@ -115,7 +115,7 @@
         },
         {
           "name": "Paulo Caldas",
-          "website": "http://pauloscaldas.com",
+          "website": "http://paulocaldas.com",
           "logo": "sponsors/paulocaldas.png"
         }
       ]
@@ -223,6 +223,16 @@
           "time": "11h00",
           "talks": [
             {
+              "title": "Almoço",
+              "description": "",
+              "speakers": []
+            }
+          ]
+        },
+        {
+          "time": "12h00",
+          "talks": [
+            {
               "title": "AngularJS: tendência ou exagero?",
               "description": "Uma visão geral sobre o framework, curva de aprendizado e aplicações. Vale mesmo a pena usar AngularJS em qualquer projeto?",
               "speakers": [
@@ -231,16 +241,6 @@
                   "title": "Líder de Desenvolvimento, B2W Digital"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "time": "12h00",
-          "talks": [
-            {
-              "title": "Almoço",
-              "description": "",
-              "speakers": []
             }
           ]
         },
@@ -263,7 +263,7 @@
           "time": "13h30",
           "talks": [
             {
-              "title": "Mobile First",
+              "title": "Mobile first para não ficar por último",
               "description": "",
               "speakers": [
                 {
