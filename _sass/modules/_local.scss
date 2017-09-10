@@ -11,15 +11,11 @@
     top: 0;
     width: 100%;
     height: 99%;
-    background-image: url("/assets/images/foto-hotel.jpg");
+    background-image: url("../images/foto-hotel.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
+    filter: blur(2px);
 
     &:before {
       content: "";

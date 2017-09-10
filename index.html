@@ -5,11 +5,19 @@ layout: default
 {% assign conference = site.data.conference %}
 <div class="main">
   <header class="main-header">
-    <article class="row"><img src="assets/images/logo.svg" alt="{{conference.name}}" class="logo">
-      <h1 class="main-title">{{conference.name}}</h1>
+    <article class="row">
+      <h1>
+        <img src="assets/images/logo.svg" alt="{{conference.name}}" class="logo">
+      </h1>
+      <!--<h1 class="main-title">{{conference.name}}</h1>-->
       <a href="{{conference.eventick}}" class="register-btn">Inscreva-se</a>
-      <a href="{{conference.call_for_papers_link}}" target="_blank" class="register-btn" style="width: 15em">
-        Seja um palestrante</a></article>
+
+      {% if conference.callforpapers.enabled %}
+      <a href="{{conference.callforpapers.url}}" target="_blank" class="register-btn" style="width: 15em">
+        Seja um palestrante
+      </a>
+      {% endif %}
+    </article>
     <address class="address">
       {% if conference.date %}
       <time>{{conference.date}}, {{conference.place.name}} - {{conference.place.city}}</time>
@@ -26,6 +34,8 @@ layout: default
     </article>
   </section>
   {% endif %}
+
+  {% if conference.show_speakers %}
 
   <section class="speakers">
     <article class="row">
@@ -46,7 +56,7 @@ layout: default
       </div>
       {% endfor %}
 
-      {% if conference.callforpapers.show %}
+      {% if conference.callforpapers.enabled %}
       <div class="col-md-4">
         <div class="invitation">
           <div class="flipper">
@@ -62,6 +72,10 @@ layout: default
 
     </article>
   </section>
+
+  {% endif %}
+
+  {% if conference.show_schedules %}
 
   <section class="programming">
     <h1>PROGRAMAÇÃO</h1>
@@ -104,13 +118,15 @@ layout: default
     </article>
   </section>
 
+{% endif %}
+
   <section class="local">
     <div class="bg-image"></div>
     <article class="row"><img src="assets/images/foto-hotel.jpg" alt="{{conference.place.name}}" class="faro-hotel">
       <address class="event-address">
-        <p>O evento vai ser realizado na <span>{{conference.place.name}} em {{conference.place.city}} </span></p>
+        <p>Local do evento <span>{{conference.place.name}} em {{conference.place.city}} </span></p>
       </address>
-      <a href="{{conference.place.map}}" class="more-info">Mapa</a>
+      <a href="{{conference.place.map}}" class="more-info">Como chegar</a>
     </article>
   </section>
   <section class="sponsors">
@@ -135,7 +151,7 @@ layout: default
 
       <div class="row">
         <a class="invitation"
-           href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs"
+           href="https://docs.google.com/presentation/d/e/2PACX-1vS7X1Nj7TTeevfNMoOOrrFt6gQSBoue95hXL9m4om7SrMDkpEPh7rebEPCBF_C8SsBP333OnCFfIfVM/pub"
            target="_blank">Seja um patrocinador</a>
       </div>
     </article>
