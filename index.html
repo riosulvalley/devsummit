@@ -2,210 +2,145 @@
 layout: default
 ---
 
-{% include person-ld.html %}
-{% include header.html %}
-
-{% include about.html %}
-{% include projects.html %}
-{% include blog.html %}
-{% include footer.html %}
-
-
-
-
-
-<!doctype html>
-<html class="no-js">
-<head>
-  <meta charset="utf-8">
-  <title><%=name%> - <%=slogan%></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <meta property="og:locale" content="pt_BR">
-
-  <meta property="og:url" content="<%=_url()%>">
-
-  <meta property="og:title" content="<%=name%> - <%=slogan%>">
-  <meta property="og:site_name" content="<%=name%>">
-
-  <meta property="og:description" content="<%=description%>">
-
-  <meta property="og:image" content="images/og-cover.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="800">
-  <meta property="og:image:height" content="600">
-  <meta property="og:type" content="website">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <!-- build:css(.) styles/vendor.css -->
-  <!-- bower:css -->
-  <!-- endbower -->
-  <!-- endbuild -->
-  <!-- build:css(.tmp) styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
-</head>
-<body>
-
-<!-- Add your site or application content here -->
-
+{% assign conference = site.data.conference %}
 <div class="main">
   <header class="main-header">
-    <article class="row"><img src="images/logo.svg" alt="<%=name%>" class="logo">
-      <h1 class="main-title"><%=name%></h1>
-
-      <a href="<%=eventick%>" class="register-btn">Inscreva-se</a>
-      <a href="<%=call_for_papers_link%>" target="_blank" class="register-btn" style="width: 21.5em">
+    <article class="row"><img src="assets/images/logo.svg" alt="{{conference.name}}" class="logo">
+      <h1 class="main-title">{{conference.name}}</h1>
+      <a href="{{conference.eventick}}" class="register-btn">Inscreva-se</a>
+      <a href="{{conference.call_for_papers_link}}" target="_blank" class="register-btn" style="width: 15em">
         Seja um palestrante</a></article>
     <address class="address">
-      <time><%=date%>, <%=place.name%> - <%=place.city%></time>
+      {% if conference.date %}
+      <time>{{conference.date}}, {{conference.place.name}} - {{conference.place.city}}</time>
+      {% endif %}
     </address>
   </header>
   <section class="photos"></section>
 
 
-  <%if( description ) {%>
+  {% if conference.description %}
   <section class="event">
     <article class="row">
-      <%=description%>
+      {{ conference.description }}
     </article>
   </section>
-  <%}%>
+  {% endif %}
 
   <section class="speakers">
     <article class="row">
       <h1 class="title">PALESTRANTES</h1>
 
-      <%for(var i = 0; i < speakers.length; i++) {
-      var speaker = speakers[i];%>
+      {% for speaker in conference.speakers %}
       <div class="col-md-4 flip-container">
         <div class="flipper">
           <div class="front">
-            <img src="images/<%=speaker.photo%>" alt="Palestrante">
+            <img src="assets/images/{{speaker.photo}}" alt="Palestrante">
           </div>
           <div class="back">
-            <h1 class="speaker-name"><%=speaker.name%></h1>
-            <span class="speaker-role"><%=speaker.title%></span>
-            <p class="speaker-description"><%=speaker.bio%></p>
+            <h1 class="speaker-name">{{speaker.name}}</h1>
+            <span class="speaker-role">{{speaker.title}}</span>
+            <p class="speaker-description">{{speaker.bio}}</p>
           </div>
         </div>
       </div>
-      <%}%>
+      {% endfor %}
 
-      <%if(callforpapers.show) {%>
+      {% if conference.callforpapers.show %}
       <div class="col-md-4">
         <div class="invitation">
           <div class="flipper">
-            <div class="call"><a href="<%=callforpapers.url%>" target="_blank"><%=callforpapers.title%></a></div>
+            <div class="call">
+              <a href="{{conference.callforpapers.url}}" target="_blank">
+                {{conference.callforpapers.title}}
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <%}%>
+      {% endif %}
 
     </article>
   </section>
 
   <section class="programming">
-
     <h1>PROGRAMAÇÃO</h1>
-    <%for(var i1 = 0; i1 < schedules.length; i1++) {
-    var days = schedules[i1];%>
-
     <article class="row">
-
-
-      <%for(var day in days) {
-      var scheds = days[day];%>
-
       <table class="events-table" cellpadding="0" cellspacing="0">
-
-        <%for(var i2 = 0; i2 < scheds.length; i2++) {
-        var schedule = scheds[i2];%>
-
+        {% for scheds in conference.schedules %}
         <tr class="feature">
           <td class="time">
-            <time><%=schedule.time%></time>
+            <time>{{scheds.time}}</time>
           </td>
-          <%for(var i3 = 0; i3 < schedule.talks.length; i3++) {
-          var talk = schedule.talks[i3];%>
+          {% for talk in scheds.talks %}
           <td class="event-detail">
             <ul class="schedule-list">
               <li>
                 <h2 class="header">
-                  <span class="talk-title"><%=talk.title%></span>
-                  <% if( talk.room ) { %><span class="room"> <%=talk.room%> </span> <%}%>
+                  <span class="talk-title">{{talk.title}}</span>
+                  {% if talk.room %}
+                  <span class="room">
+                    {{talk.room}}
+                  </span>
+                  {% endif %}
 
-                  <%for(var i5 = 0; i5 < talk.speakers.length; i5++) {
-                  var speaker = talk.speakers[i5];%>
-                  <span class="speaker"><%=speaker.name %><% if( speaker.title ) { %>, <%=speaker.title%><%}%></span>
-                  <%}%>
+                  {% for speaker in talk.speakers %}
+                  <span class="speaker">
+                    {{speaker.name}}
+                    {% if  speaker.title %}
+                    , {{speaker.title}}
+                    {% endif %}
+                  </span>
+                  {% endfor %}
                 </h2>
-                <span class="description"><%=talk.description%></span>
+                <span class="description">{{talk.description}}</span>
               </li>
             </ul>
           </td>
-          <%}%>
+          {% endfor %}
         </tr>
-        <%}%>
+        {% endfor %}
       </table>
-
-      <%}%>
     </article>
-    <%}%>
-
-
   </section>
 
-  <%}%>
   <section class="local">
     <div class="bg-image"></div>
-    <article class="row"><img src="images/foto-hotel.jpg" alt="<%=place.name%>" class="faro-hotel">
+    <article class="row"><img src="assets/images/foto-hotel.jpg" alt="{{conference.place.name}}" class="faro-hotel">
       <address class="event-address">
-        <p>O evento vai ser realizado na <span><%=place.name %> em <%=place.city %> </span></p>
+        <p>O evento vai ser realizado na <span>{{conference.place.name}} em {{conference.place.city}} </span></p>
       </address>
-      <a href="<%=place.map%>" class="more-info">Mapa</a>
+      <a href="{{conference.place.map}}" class="more-info">Mapa</a>
     </article>
   </section>
   <section class="sponsors">
     <article class="row">
       <h1>PATROCINADORES</h1>
-      <%for(var i1 = 0; i1 < sponsorships.length; i1++) {
-      var sponsorship = sponsorships[i1];%>
+      {% for sponsorship in conference.sponsorships %}
       <div>
-        <% if (sponsorship.sponsors) { %>
+        {% if sponsorship.sponsors %}
         <div class="col-md-12">
-          <h2 class="title support-title"><%=sponsorship.name%></h2>
-          <%for(var i2 = 0; i2 < sponsorship.sponsors.length; i2++) {
-          var sponsor = sponsorship.sponsors[i2];%>
+          <h2 class="title support-title">{{sponsorship.name}}</h2>
+          {% for sponsor in sponsorship.sponsors %}
           <div class="sponsor">
-            <a title="<%=sponsor.name%>" href="<%=sponsor.website%>" target="_blank"><img src="images/<%=sponsor.logo%>" class="sponsor-logo"></a>
+            <a title="{{sponsor.name}}" href="{{sponsor.website}}" target="_blank">
+              <img src="assets/images/{{sponsor.logo}}" class="image">
+            </a>
           </div>
-          <%}%>
+          {% endfor %}
         </div>
-        <%}%>
+        {% endif %}
       </div>
-      <%}%>
-      <div class="row"><a class="invitation"
-                          href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs"
-                          target="_blank">Seja um patrocinador</a></div>
+      {% endfor %}
 
+      <div class="row">
+        <a class="invitation"
+           href="https://docs.google.com/presentation/d/1sM-OTuIbyC0GJlgEtMHxm_n4RFQ5fY3DCqZhE0BqsNs"
+           target="_blank">Seja um patrocinador</a>
+      </div>
     </article>
   </section>
   <footer class="main-footer">
-    <p class="copyright">© Copyright <%=new Date().getFullYear()%> - todos os direitos reservados</p>
+    <p class="copyright">© Copyright {{ 'now' | date: "%Y" }} - todos os direitos reservados</p>
   </footer>
 </div>
-<script>(function (i, s, o, g, r, a, m) {
-  i['GoogleAnalyticsObject'] = r;
-  i[r] = i[r] || function () {
-    (i[r].q = i[r].q || []).push(arguments)
-  }, i[r].l = 1 * new Date();
-  a = s.createElement(o);
-  a.async = 1;
-  a.src = g;
-  m.parentNode.insertBefore(a, m)
-})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-ga('create', '<%=analytics%>');
-ga('send', 'pageview');
-</script>
-</body>
-</html>
