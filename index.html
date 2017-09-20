@@ -27,10 +27,13 @@ layout: default
   <section class="photos"></section>
 
 
-  {% if conference.description %}
+  {% if conference.description1 %}
   <section class="event">
     <article class="row">
-      {{ conference.description }}
+      {{ conference.description1 }}
+    </article>
+    <article class="row">
+      {{ conference.description2 }}
     </article>
   </section>
   {% endif %}

@@ -5,16 +5,17 @@ eventick: https://www.sympla.com.br/rsv-dev-conf__188065
 analytics: ---
 name: RSV Dev Conf
 slogan: Conferência de desenvolvimento web no Sul Fluminense
-description: "Depois de 1 ano de meetups, vem aí a primeira conferência de desenvolvimento de
-software do Rio Sul Velly. Será um dia inteiro para interagir, discutir, conhecer pessoas e
- nos divertir. O RSV DEV SUMMIT é um evento da comunidade feito para a comunidade.
-  O objetivo é disseminar o conhecimento e atualizar os desenvolvedores com novidades tecnológicas..
-  Esperamos neste evento estudantes, empresários, profissionais
-  da área, curiosos e apaixonados por tecnologia em geral. Increva-se!"
+description1: "Depois de 1 ano de meetups, vem aí a primeira conferência de desenvolvimento de
+software do Rio Sul Valley. Será um dia inteiro para interagir, discutir, conhecer pessoas e
+ nos divertir. O RSV DEV SUMMIT é um evento da comunidade feito para a comunidade."
+
+description2: "O objetivo é disseminar o conhecimento e atualizar os desenvolvedores com novidades tecnológicas..
+Esperamos neste evento estudantes, empresários, profissionais
+da área, curiosos e apaixonados por tecnologia em geral. Increva-se!"
 
 date: 25 de Novembro de 2017
 place:
-  name: Teatro Gacemms 2
+  name: UGB
   city: Volta Redonda - RJ
   map: https://www.google.com.br/maps/place/Gacemss/@-22.5179762,-44.1095648,17z
 callforpapers:
@@ -22,71 +23,27 @@ callforpapers:
   title: Seja um palestrante!
   url: https://goo.gl/forms/fK2TZeAw0vmHuUP32
 
-show_speakers: false
+show_speakers: true
 
 speakers:
-- photo: palestrantes/henrique.jpg
-  name: Henrique Bastos
-  title: Welcome to the Django
-  bio: Henrique Bastos é inquieto e empreendedor. Adora aplicar tecnologias para iniciativas
-    em rede que promovam autonomia de pessoas comuns.
-- photo: palestrantes/carlos.jpg
-  name: Carlos Oliveira
-  title: Líder de Desenvolvimento, B2W Digital
-  bio: Apaixonado por tecnologia começou com 14 anos como desenvolvedor e designer
-    e aos 19 anos já liderava projetos web. Formado em ciência da computação pela
-    UFRJ, foi o primeiro colocado na seleção do mestrado da COPPE/UFRJ em BD. Com
-    24 anos abandonou o mestrado para fundar a sua primeira startup. Hoje é líder
-    frontend na B2W Digital
-- photo: palestrantes/igor.jpg
-  name: Igor Torres
-  title: Líder de Design Mobile, B2W Digital
-  bio: Depois da agência Skidun, fundou a Appkraft que publicou 10 aplicativos com
-    quase um milhão de downloads. Após esses resultados a Ideais investiu na Appkraft,
-    criando a Ideais Mobile para o desenvolvimento dos apps da B2W. A B2W comprou
-    a Ideais e hoje é coordenador de usabilidade mobile na B2W Digital.
-- photo: palestrantes/marlon.jpg
-  name: Marlon Itaboray
-  title: Designer de Interação & Evangelista de UX, GAS Tecnologia
-  bio: Designer formado pela UniFOA, começou trabalhando com interfaces web e descobriu
-    a disciplina de UX em 2010. Desde então estuda, aprende, pratica e compartilha
-    tudo sobre experiência do usuário. Atualmente trabalha como designer de interação
-    atuando com pesquisa de usuários, prototipação e visualização de dados em interfaces
-    digitais.
-- photo: palestrantes/hanneli.jpg
-  name: Hanneli Tavante
-  title: Desenvolvedora de Software, Codeminer42
-  bio: "(a.k.a @hannelita) é uma desenvolvedora fissurada por programar, aprender
-    novas linguagens, frameworks, explodir capacitores, programar em C pra relaxar
-    e comittar código útil (ou não) em projetos Open Source aleatórios que encontra
-    vasculhando Githubs alheios. Ela também gosta de café, especialmente os do Starbucks."
-- photo: palestrantes/nardini.jpg
-  name: Bruno Nardini
-  title: Scrum Master, Hotel Urbano
-  bio: Trabalha e se diverte a mais de 15 anos com desenvolvimento de software, desde
-    o suporte, passando pelo desenvolvimento, liderança, até a gestão, as vezes até
-    como palestrante. Hoje é Scrum Master no Hotel Urbano e nas horas livres mantém
-    alguns cursos online na Nardini Academy.
-- photo: palestrantes/yan.jpg
-  name: Yan Borowski
-  title: Gerente de Desenvolvimento e Projetos, AM4
-  bio: Com mais de 9 anos de experiência no mercado de desenvolvimento web, possui
-    amplo conhecimento em metodologias ágeis. Já trabalhou em equipes multidisciplinares
-    e em projetos de grande relevância para grandes clientes como Supremo Tribunal
-    Federal, Banco do Brasil, Banco Santander, Banco Itaú e CEF.
-- photo: palestrantes/igorsa.jpg
-  name: Igor de Oliveira Sá
-  title: Gerente de Desenvolvimento, GAS Tecnologia
-  bio: Desenvolvedor Mobile e estudante assíduo sobre desenvolvimento de startups.
-- photo: palestrantes/rodrigo.jpg
-  name: Rodrigo de Toledo
-  title: Professor da UFRJ, sócio da Knowledge21, trainer oficial de Kanban e Management
-    3.0
-  bio: PhD pelo INRIA na França, com graduação e mestrado pela PUC-Rio. Lecionou na
-    PUC-Rio e desde 2010 é professor da UFRJ. Ultimamente divulga os métodos ágeis,
-    organizando eventos como o Agile Brazil, já tendo treinado mais de 2 mil profissionais.
-    Rodrigo é instrutor internacional da Lean Kanban University e facilitador certificado
-    de Management 3.0.
+- photo: palestrantes/afonso.jpg
+  name: Afonso França de Oliveira
+  title: Engenheiro de Software na Pomodo Digital
+  bio: Movido pela curiosidade, começou a desenvolver software há 15 anos, quando
+       tentava criar jogos RPG dentro do Excel. Hoje em dia trabalha com desenvolvimento
+       web em sua maioria Trabalhou em empresas no Brasil, EUA e Canadá e recentemente
+       voltou para o Brasil. É MBA em Gerenciamento de Projetos pela FGV e graduado em
+       Ciência da Computação pelo UBM.
+
+- photo: palestrantes/robson.jpg
+  name: Robson Ventura
+  title: Sócio Fundador da Gupy
+  bio: "Experience with Software Development in diverses languages. Completly in love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
+
+- photo: palestrantes/thales.jpg
+  name: Thales Pereira
+  title: "Engenheiro de Software na AppCraft"
+  bio: "Kong Ofertas is one of the first apps developed in my hometown and in less than 1 year reached about 10K active users. I was the responsible for rewrite the backend to make it more safe and scalable using Ruby on Rails, PostgreSQL and Heroku. I also rewrote the Android and iOS apps natively from scratch."
 
 sponsorships:
 - name: Realização
@@ -136,7 +93,7 @@ sponsorships:
 #     logo: sponsors/logo-volgraf.png
 #
 
-show_schedules: false
+show_schedules: true
 
 schedules:
   - time: 08h00
