@@ -19,7 +19,7 @@ place:
   city: Volta Redonda - RJ
   map: https://www.google.com.br/maps/place/Gacemss/@-22.5179762,-44.1095648,17z
 callforpapers:
-  enabled: true
+  enabled: false
   title: Seja um palestrante!
   url: https://goo.gl/forms/fK2TZeAw0vmHuUP32
 
