@@ -26,20 +26,58 @@ callforpapers:
 show_speakers: true
 
 speakers:
-- photo: palestrantes/afonso.jpg
-  name: Afonso França de Oliveira
-  title: Engenheiro de Software na Pomodo Digital
-  bio: Desenvolvedor há 15 anos, Afonso programa por diversão e curiosidade desde que era adolescente, quando tentava criar jogos usando o Excel. Hoje em dia, trabalha ajudando empresas a criar softwares estáveis e que resolvem problemas reais. Já se aventurou em startups nos EUA e Canada e recentemente voltou para o interior. É MBA em Gerenciamento de Projetos e graduado em Ciência da Computação.
+- name: Eduardo Matos
+  photo: palestrantes/eduardo.jpg
+  title: Tech Lead na GetNinjas
+  bio: Desenvolvedor web desde 2004, quando começou a trabalhar como
+       professor e programador. Trabalhou em diversas empresas como R7.com,
+       JWT, Medicinia, Creditas e em projetos com Philips, Adidas, entre
+       outras. Atua como Tech Lead na GetNinjas , palestrante e organizador
+       do HTML-SP e um dos administradores da organização do Frontend Brasil,
+       no Github.
 
-- photo: palestrantes/robson.jpg
-  name: Robson Ventura
-  title: Sócio Fundador da Gupy
-  bio: "Experience with Software Development in diverses languages. Completly in love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
+#- name: Afonso F Oliveira
+#  photo: palestrantes/afonso.jpg
+#  title: Engenheiro de Software na Pomodo Digital
+#  bio: Desenvolvedor há 15 anos, Afonso programa por diversão e curiosidade desde que era adolescente, quando tentava criar jogos usando o Excel. Hoje em dia, trabalha ajudando empresas a criar softwares estáveis e que resolvem problemas reais. Já se aventurou em startups nos EUA e Canada e recentemente voltou para o interior. É MBA em Gerenciamento de Projetos e graduado em Ciência da Computação.
 
-- photo: palestrantes/thales.jpg
-  name: Thales Pereira
-  title: "Engenheiro de Software na AppCraft"
-  bio: "Kong Ofertas is one of the first apps developed in my hometown and in less than 1 year reached about 10K active users. I was the responsible for rewrite the backend to make it more safe and scalable using Ruby on Rails, PostgreSQL and Heroku. I also rewrote the Android and iOS apps natively from scratch."
+#- photo: palestrantes/robson.jpg
+#  name: Robson Ventura
+#  title: Sócio Fundador da Gupy
+#  bio: "Experience with Software Development in diverses languages. Completly in love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
+
+- name: Thales Pereira
+  photo: palestrantes/thales.jpg
+  title: Desenvolvedor Full-stack na AppCraft
+  bio: Desenvolvedor fullstack atualmente trabalhando na AppCraft como solo developer,
+       desenvolvendo aplicativos como Kong Ofertas, Grip e Mutt. Viciado em
+       desenvolvimento de software, boas práticas e atualmente trabalhando
+       principalmente com Ruby on Rails e React.
+
+- name: Palestrante bloqueado
+  photo: palestrantes/secret.png
+  title: Aguardando seleção do Call for papers
+
+- name: Palestrante bloqueado
+  photo: palestrantes/secret.png
+  title: Aguardando seleção do Call for papers
+
+- name: Palestrante bloqueado
+  photo: palestrantes/secret.png
+  title: Aguardando seleção do Call for papers
+
+- name: Palestrante bloqueado
+  photo: palestrantes/secret.png
+  title: Aguardando seleção do Call for papers
+
+- name: Palestrante bloqueado
+  photo: palestrantes/secret.png
+  title: Aguardando seleção do Call for papers
+
+- name: Palestrante bloqueado
+  photo: palestrantes/secret.png
+  title: Aguardando seleção do Call for papers
+
 
 sponsorships:
 - name: Realização
@@ -55,11 +93,11 @@ sponsorships:
 #   - name: Microcamp Volta Redonda
 #     website: http://www.microcamp.com.br/
 #     logo: sponsors/microcamp.png
-# - name: Ouro
-#   sponsors:
-#   - name: AppCraft
-#     website: http://appcraft.com.br
-#     logo: sponsors/appcraft.png
+- name: Gold
+  sponsors:
+  - name: ScalablePath
+    website: https://www.scalablepath.com/
+    logo: sponsors/scalablepath.png
 #   - name: Paulo Caldas
 #     website: http://paulocaldas.com
 #     logo: sponsors/paulocaldas.png
@@ -92,117 +130,91 @@ sponsorships:
 show_schedules: true
 
 schedules:
-  - time: 08h00
+  - time: 08h00 - 08h30
     talks:
     - title: Credenciamento
-  - time: 08h30
+
+  - time: 08h30 - 09h00
     talks:
     - title: Abertura oficial
-  - time: 09h00
+
+  - time: 09h00 - 09h30
     talks:
     - title: Palestra 1
-      # description: 'Em relatório recente da VersionOne, mais de 50% dos projetos no
-      #   mundo usam métodos ágeis e a maior parte do conhecimento recai sobre o ScrumMaster.
-      #   Nesta palestra vou falar sobre os conhecimentos esperados do ScrumMaster 3.0,
-      #   respondendo perguntas como: Por que Scrum? ScrumMaster 1.0, 2.0 e 3.0, qual
-      #   a diferença? O que esperar do ScrumMaster 3.0? Além de revermos os papéis
-      #   do Scrum: ScrumMaster, ProductOwner e time e também outros aprendizados como:
-      #   Técnicas de facilitação, Técnicas de Coaching, Como motivar indivíduos?, Escalando
-      #   a agilidade, Kanban e Técnicas para atuar junto ao Product Owner.'
-      # speakers:
-      # - name: Rodrigo de Toledo
-      #   title: Professor da UFRJ, sócio da Knowledge21, trainer oficial de Kanban
-      #     e Management 3.0
-  - time: 10h00
+
+  - time: 09h30 - 10h30
     talks:
-    - title: Palestra 2
-      # description: 'Ao longo dos anos nossos sites, apps e serviços tem se tornado
-      #   mais complexos com o avanço da tecnologia. O sucesso de tudo isso depende
-      #   apenas de uma coisa: como os usuários pensam. Vários pensamentos passam pela
-      #   mente de uma pessoa no momento em que ela interage com um produto ou serviço,
-      #   e precisamos nos esforçar para trabalhar baseados neles. Nessa palestra vamos
-      #   entender um pouco sobre a disciplina de experiência do usuário e como ela
-      #   se encaixa dentro do desenvolvimento de um projeto.'
-      # speakers:
-      # - name: Marlon Itaboray
-      #   title: Designer de Interação & Evangelista de UX, Diebold Inc.
-  - time: 11h00
-    talks:
-    - title: Almoço
-      description: ''
-      speakers: []
-  - time: 12h00
-    talks:
-    - title: Palestra 3
-      # description: Uma visão geral sobre o framework, curva de aprendizado e aplicações.
-      #   Vale mesmo a pena usar AngularJS em qualquer projeto?
-      # speakers:
-      # - name: Carlos Oliveira
-      #   title: Líder de Desenvolvimento, B2W Digital
-  - time: 13h00
-    talks:
-    - title: Palestra 4
-      # description: Você já ouviu falar sobre o Node.js? Conhece alguma empresa ou
-      #   projeto que o utilize? Será que é bom? E o mercado de trabalho? Vem na cor
-      #   preta? Calma! Deixe as perguntas para a palestra! =)
-      # speakers:
-      # - name: Bruno Nardini
-      #   title: Scrum Master, Hotel Urbano
-  - time: 13h30
-    talks:
-    - title: Palestra 5
-      # description: ''
-      # speakers:
-      # - name: Igor Torres
-      #   title: Líder de Design Mobile, B2W Digital
-  - time: 14h30
-    talks:
-    - title: Palestra 6
-      # description: 'Quantos desenvolvedores Web já tiveram uma idéia sensacional para
-      #   desenvolver um aplicativo e esbarraram em um grande problema: Não conheço
-      #   Java, não conheço Objective-C e não tenho dinheiro para investir na terceirização
-      #   do App. Veja como é simples desenvolver um aplicativo para Android e iOS,
-      #   utilizando AngularJS, CSS e HTML5! Chegou a hora de colocar suas ideias para
-      #   rodar!'
-      # speakers:
-      # - name: Yan Borowski
-      #   title: Gerente de Desenvolvimento e Projetos, AM4
-  - time: 15h00
+    - title: Segredos não ditos de PWA - muito além do Web App Manifest
+      description: 'Essa palestra tem como objetivo destrinchar mais a
+      fundo os conceitos que definem um PWA. Vamos ver que tipo de
+      otimizações e quais macetes devemos utilizar para que a
+      performance e experiência de uso de uma aplicação web progressiva
+      tenha o resultado esperado.'
+      speakers:
+      - name: Eduardo Matos
+        title: Tech Lead na GetNinjas
+
+  - time: 10h30 - 11h00
     talks:
     - title: Coffee Break
-  - time: 15h30
+
+  - time: 11h00 - 11h30
+    talks:
+    - title: Palestra 3
+
+  - time: 11h30 - 12h00
+    talks:
+    - title: Palestra 4
+
+  - time: 12h00 - 13h00
+    talks:
+    - title: Almoço
+
+  - time: 13h00 - 13h30
+    talks:
+    - title: Palestra 5
+
+  - time: 13h30 - 14h00
+    talks:
+    - title: Palestra 6
+
+#  - time: 13h30
+#    talks:
+#    - title: Internet of Things - Muito mais que acender e apagar luzes
+#      speakers:
+#      - name: Afonso F Oliveira
+#        title: Engenheiro de Software na Pomodo Digital
+
+  - time: 14h00 - 15h00
     talks:
     - title: Palestra 7
-      # description: Já notou que seria possível descrever diversas situações com grafos?
-      #   Grafos não são apenas parte de alguma matéria chata na Universidade, eles
-      #   podem (e são) usados em muitas situações. Essa palestra mostrará alguns cenários
-      #   onde a modelarem com grafos pode auxiliar bastante a resolução de problemas,
-      #   especialmente fazendo uso do Ne4j, um banco orientado a grafos. Nativo para
-      #   Java, será apresentado como utilizá-lo em Ruby.
-      # speakers:
-      # - name: Hanneli Tavante
-      #   title: Desenvolvedora de Software, Codeminer42
-  - time: 16h30
+
+  - time: 15h00 - 15h30
     talks:
     - title: Palestra 8
-      # description: Você é desenvolvedor ou até mesmo empreendedor? Então poderá tirar
-      #   bastante proveito desta palestra pois depois de muita leitura e tentativas,
-      #   venho compartilhar as principais falhas, acertos, ferramentas e aprendizados
-      #   que obtive nesta caminhada emocionante de desenvolvimento de startups.
-      # speakers:
-      # - name: Igor de Oliveira Sá
-      #   title: Gerente de Desenvolvimento, GAS Tecnologia
-  - time: 17h00
+
+  - time: 15h30 - 16h00
     talks:
-    - title: Palestra 9
-      # description: Quer ter autonomia sobre o seu tempo? Quer ter tempo para estudar
-      #   coisas novas? Tempo para viajar? Tempo para ir aos eventos? Quer isso e muito
-      #   mais, mas seu chefe não deixa? A empresa não ajuda? Nesta palestra vamos explorar
-      #   visões, estratégias e práticas importantes para quem quer esculpir um estilo
-      #   de vida para viver a vida nos seus próprios termos.
-      # speakers:
-      # - name: Henrique Bastos
-      #   title: Welcome to the Django
-  - time: 18h00
+    - title: Coffee Break
+
+  - time: 16h00 - 16h30
+    talks:
+    - title: Como desenvolvemos o Kong Ofertas
+      description: Demonstrar o stack e as decisões tomadas no
+        desenvolvimento do aplicativo Kong Ofertas e falar sobre o que
+        eu penso do desenvolvimento mobile no futuro.
+      speakers:
+      - name: Thales Pereira
+        title: Desenvolvedor Full-stack na AppCraft
+
+  - time: 16h30 - 17h00
+    talks:
+    - title: Palestra 10
+
+  - time: 17h00 - 18h00
+    talks:
+    - title: Palestra 11
+
+  - time: 18h00 - 18h30
     talks:
     - title: Encerramento Oficial

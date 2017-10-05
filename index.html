@@ -46,7 +46,7 @@ layout: default
       <h1 class="title">PALESTRANTES</h1>
 
       {% for speaker in conference.speakers %}
-      <div class="col-md-4 flip-container">
+      <div class="col-md-3 flip-container">
         <div class="flipper">
           <div class="front">
             <img src="assets/images/{{speaker.photo}}" alt="Palestrante">
@@ -61,7 +61,7 @@ layout: default
       {% endfor %}
 
       {% if conference.callforpapers.enabled %}
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="invitation">
           <div class="flipper">
             <div class="call">
