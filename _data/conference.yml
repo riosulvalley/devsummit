@@ -132,6 +132,17 @@ sponsorships:
     website: https://www.alura.com.br/
     logo: sponsors/alura.png
 
+  - name: UGB
+    website: http://www.ugb.edu.br/
+    logo: sponsors/ugb.png
+
+
+- name: Support
+  sponsors:
+  - name: Dev na Estrada
+    website: http://devnaestrada.com.br/
+    logo: sponsors/dne.png
+
 #   - name: Desenvolvendo.vc
 #     website: http://www.desenvolvendo.vc
 #     logo: sponsors/desenvolvendovc.png
