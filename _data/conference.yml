@@ -28,7 +28,7 @@ show_speakers: true
 speakers:
 - name: Eduardo Matos
   photo: palestrantes/eduardo.jpg
-  title: Tech Lead na GetNinjas
+  title: Tech Lead na GetNinjas - Campinas - SP
   bio: Desenvolvedor web desde 2004, quando começou a trabalhar como
        professor e programador. Trabalhou em diversas empresas como R7.com,
        JWT, Medicinia, Creditas e em projetos com Philips, Adidas, entre
@@ -36,31 +36,50 @@ speakers:
        do HTML-SP e um dos administradores da organização do Frontend Brasil,
        no Github.
 
-#- name: Afonso F Oliveira
-#  photo: palestrantes/afonso.jpg
-#  title: Engenheiro de Software na Pomodo Digital
-#  bio: Desenvolvedor há 15 anos, Afonso programa por diversão e curiosidade desde que era adolescente, quando tentava criar jogos usando o Excel. Hoje em dia, trabalha ajudando empresas a criar softwares estáveis e que resolvem problemas reais. Já se aventurou em startups nos EUA e Canada e recentemente voltou para o interior. É MBA em Gerenciamento de Projetos e graduado em Ciência da Computação.
+- name: Afonso F Oliveira
+  photo: palestrantes/afonso.jpg
+  title: Engenheiro de Software na Gupy - São Paulo - SP
+  bio: Desenvolvedor há 15 anos, Afonso programa por diversão e curiosidade desde
+       que era adolescente, quando tentava criar jogos usando o Excel. Hoje em dia,
+       trabalha ajudando empresas a criar softwares estáveis e que resolvem problemas
+       reais. Já se aventurou em startups nos EUA e Canada e recentemente voltou
+       para o interior. É MBA em Gerenciamento de Projetos e graduado em Ciência 
+       da Computação.
+
+- name: Isabella Silveira
+  photo: palestrantes/isabella.jpg
+  title: Desenvolvedora na Work&Co - Rio de Janeiro - RJ
+  bio: Isabella Silveira, ou só Isa mesmo, é uma grande entusiasta de Machine 
+       Learning e atualmente trabalha como desenvolvedora na Work & Co. Nas 
+       horas livres, tenta automatizar sua vida, brinca com seus cachorros e 
+       pesquisa sobre novas tecnologias.
 
 #- photo: palestrantes/robson.jpg
 #  name: Robson Ventura
 #  title: Sócio Fundador da Gupy
-#  bio: "Experience with Software Development in diverses languages. Completly in love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
+#  bio: "Experience with Software Development in diverses languages. Completly in
+#   love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
 
 - name: Thales Pereira
   photo: palestrantes/thales.jpg
-  title: Desenvolvedor Full-stack na AppCraft
+  title: Desenvolvedor Full-stack na AppCraft - Volta Redonda - RJ
   bio: Desenvolvedor fullstack atualmente trabalhando na AppCraft como solo developer,
        desenvolvendo aplicativos como Kong Ofertas, Grip e Mutt. Viciado em
        desenvolvimento de software, boas práticas e atualmente trabalhando
        principalmente com Ruby on Rails e React.
 
-- name: Palestrante bloqueado
-  photo: palestrantes/secret.png
-  title: Aguardando seleção do Call for papers
+- name: Thiago Sciotta
+  photo: palestrantes/thiago.jpg
+  title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
+  bio: Thiago é desenvolvedor full-stack e trabalha remoto. Viciado em
+   Javascript e café sem açúcar. Já passou por diversas empresas e 
+   startups do Rio de Janeiro, São Paulo e Estados Unidos como Diebold,
+    Rastreabilidade Brasil e HUGE.
 
-- name: Palestrante bloqueado
-  photo: palestrantes/secret.png
-  title: Aguardando seleção do Call for papers
+
+- name: Henrique Bastos
+  photo: palestrantes/henrique.jpg
+  title: Welcome to the Django
 
 - name: Palestrante bloqueado
   photo: palestrantes/secret.png
@@ -98,11 +117,21 @@ sponsorships:
   - name: ScalablePath
     website: https://www.scalablepath.com/
     logo: sponsors/scalablepath.png
-#   - name: Paulo Caldas
-#     website: http://paulocaldas.com
-#     logo: sponsors/paulocaldas.png
-# - name: Prata
-#   sponsors:
+
+  - name: K&S - Mídia e Marketing
+    website: https://www.facebook.com/kesmidiamarketing/
+    logo: sponsors/kes.png
+
+  - name: Revolution School
+    website: https://www.facebook.com/revolutionschoolvr/
+    logo: sponsors/revolution.jpg
+
+- name: Silver
+  sponsors:
+  - name: Alura
+    website: https://www.alura.com.br/
+    logo: sponsors/alura.png
+
 #   - name: Desenvolvendo.vc
 #     website: http://www.desenvolvendo.vc
 #     logo: sponsors/desenvolvendovc.png
@@ -174,16 +203,17 @@ schedules:
     talks:
     - title: Palestra 5
 
+
   - time: 13h30 - 14h00
     talks:
-    - title: Palestra 6
-
-#  - time: 13h30
-#    talks:
-#    - title: Internet of Things - Muito mais que acender e apagar luzes
-#      speakers:
-#      - name: Afonso F Oliveira
-#        title: Engenheiro de Software na Pomodo Digital
+    - title: Internet of Things - Muito mais que acender e apagar luzes
+      speakers:
+      - name: Afonso F Oliveira
+        title: Engenheiro de Software na Gupy
+      description: '<i>"Não podemos prever o futuro, mas podemos criá-lo." 
+      Peter Drucker.</i><br>Nesta palestra demonstrarei na prática um modo
+       barato e versátil de automatização residencial, como eu implantei 
+       na minha casa e como hoje eu a comando usando minha voz.'
 
   - time: 14h00 - 15h00
     talks:
@@ -213,7 +243,21 @@ schedules:
 
   - time: 17h00 - 18h00
     talks:
-    - title: Palestra 11
+    - title: 'Art attack para robôs: ensinando arte ao seu computador'
+      speakers:
+      - name: Isabella Silveira
+        title: Desenvolvedora na Work&Co
+      description: 'Machine learning vem revolucionando o mercado 
+      tecnológico com soluções cada vez mais arrojadas: algoritmos de
+       recomendações que sabem exatamente do que gostamos, fones de
+       ouvido capazes de traduzir conversas inteiras em tempo real e
+       até poder preditivo para nos ajudar a adivinhar o futuro. Mas
+       e quanto à arte? Podemos ter máquinas criativas e inteligentes
+       suficiente capaz de produzir arte? O que acontece quando
+       juntamos poder computacional e as obras dos maiores artistas
+       que a história já viu? É o que você vai descobrir nessa 
+       incrível jornada rumo ao desconhecido e o inusitado mundo 
+       do aprendizado de máquina.'
 
   - time: 18h00 - 18h30
     talks:
