@@ -60,14 +60,6 @@ speakers:
 #  bio: "Experience with Software Development in diverses languages. Completly in
 #   love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
 
-- name: Thales Pereira
-  photo: palestrantes/thales.jpg
-  title: Desenvolvedor Full-stack na AppCraft - Volta Redonda - RJ
-  bio: Desenvolvedor fullstack atualmente trabalhando na AppCraft como solo developer,
-       desenvolvendo aplicativos como Kong Ofertas, Grip e Mutt. Viciado em
-       desenvolvimento de software, boas práticas e atualmente trabalhando
-       principalmente com Ruby on Rails e React.
-
 - name: Thiago Sciotta
   photo: palestrantes/thiago.jpg
   title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
@@ -81,9 +73,15 @@ speakers:
   photo: palestrantes/henrique.jpg
   title: Welcome to the Django
 
-- name: Palestrante bloqueado
-  photo: palestrantes/secret.png
-  title: Aguardando seleção do Call for papers
+- name: Eduardo Cini
+  photo: palestrantes/eduardo-cini.jpg
+  title: QA na Concrete Solutions
+  bio: "Graduado em Sistema de Informação, certificado Scrum Master,
+  Product Owner e Teste de Software. Trabalha como QA na Concrete
+  Solutions, uma empresa de consultoria que desenvolve soluções 
+  digitais. Possui experiência em times ágeis e com automação de
+  testes, atualmente atua em um projeto onde utiliza Node.js para 
+  automação de testes WEB/API."
 
 - name: Palestrante bloqueado
   photo: palestrantes/secret.png
@@ -176,83 +174,13 @@ schedules:
 
   - time: 08h30 - 09h00
     talks:
-    - title: Abertura oficial
+    - title: Abertura
 
   - time: 09h00 - 09h30
     talks:
-    - title: Palestra 1
+    - title: Palestra a ser definida
 
-  - time: 09h30 - 10h30
-    talks:
-    - title: Segredos não ditos de PWA - muito além do Web App Manifest
-      description: 'Essa palestra tem como objetivo destrinchar mais a
-      fundo os conceitos que definem um PWA. Vamos ver que tipo de
-      otimizações e quais macetes devemos utilizar para que a
-      performance e experiência de uso de uma aplicação web progressiva
-      tenha o resultado esperado.'
-      speakers:
-      - name: Eduardo Matos
-        title: Tech Lead na GetNinjas
-
-  - time: 10h30 - 11h00
-    talks:
-    - title: Coffee Break
-
-  - time: 11h00 - 11h30
-    talks:
-    - title: Palestra 3
-
-  - time: 11h30 - 12h00
-    talks:
-    - title: Palestra 4
-
-  - time: 12h00 - 13h00
-    talks:
-    - title: Almoço
-
-  - time: 13h00 - 13h30
-    talks:
-    - title: Palestra 5
-
-
-  - time: 13h30 - 14h00
-    talks:
-    - title: Internet of Things - Muito mais que acender e apagar luzes
-      speakers:
-      - name: Afonso F Oliveira
-        title: Engenheiro de Software na Gupy
-      description: '<i>"Não podemos prever o futuro, mas podemos criá-lo." 
-      Peter Drucker.</i><br>Nesta palestra demonstrarei na prática um modo
-       barato e versátil de automatização residencial, como eu implantei 
-       na minha casa e como hoje eu a comando usando minha voz.'
-
-  - time: 14h00 - 15h00
-    talks:
-    - title: Palestra 7
-
-  - time: 15h00 - 15h30
-    talks:
-    - title: Palestra 8
-
-  - time: 15h30 - 16h00
-    talks:
-    - title: Coffee Break
-
-  - time: 16h00 - 16h30
-    talks:
-    - title: Como desenvolvemos o Kong Ofertas
-      description: Demonstrar o stack e as decisões tomadas no
-        desenvolvimento do aplicativo Kong Ofertas e falar sobre o que
-        eu penso do desenvolvimento mobile no futuro.
-      speakers:
-      - name: Thales Pereira
-        title: Desenvolvedor Full-stack na AppCraft
-
-  - time: 16h30 - 17h00
-    talks:
-    - title: Palestra 10
-
-  - time: 17h00 - 18h00
+  - time: 09h35 - 10h35
     talks:
     - title: 'Art attack para robôs: ensinando arte ao seu computador'
       speakers:
@@ -270,6 +198,92 @@ schedules:
        incrível jornada rumo ao desconhecido e o inusitado mundo 
        do aprendizado de máquina.'
 
-  - time: 18h00 - 18h30
+  - time: 10h35 - 11h05
     talks:
-    - title: Encerramento Oficial
+    - title: Coffee Break
+
+  - time: 11h05 - 12h05
+    talks:
+    - title: Segredos não ditos de PWA - muito além do Web App Manifest
+      description: 'Essa palestra tem como objetivo destrinchar mais a
+      fundo os conceitos que definem um PWA. Vamos ver que tipo de
+      otimizações e quais macetes devemos utilizar para que a
+      performance e experiência de uso de uma aplicação web progressiva
+      tenha o resultado esperado.'
+      speakers:
+      - name: Eduardo Matos
+        title: Tech Lead na GetNinjas
+
+  - time: 12h05 - 13h05
+    talks:
+    - title: Almoço
+
+  - time: 13h05 - 13h35
+    talks:
+    - title: Palestra a ser definida
+
+  - time: 13h40 - 14h10
+    talks:
+    - title: 'Agile Testing - Qualidade do Discovery ao Deploy'
+      description: 'Seguindo o modelo Agil de desenvolvimento de 
+      software, com a necessidade de gerar valor a cada entrega 
+      para o cliente, o "Tester" precisa ter um papel mais atuante 
+      em todas as fase do produto, desde o entendimento do 
+      produto(Discovery) até a entrega(Deploy). Sendo assim, o Agile 
+      Testing surge com a premissa de que o Tester passa a ter não 
+      só as habilidades técnicas mas também habilidades 
+      crítica/analítica para ajudar o time a desenvolver um produto 
+      melhor e que atenda a real necessidade do cliente sem o 
+      desperdício de tempo e dinheiro.'
+      speakers:
+      - name: Eduardo Cini
+        title: QA na Concrete Solutions
+
+
+  - time: 14h15 - 15h15
+    talks:
+    - title: Tudo que você queria saber sobre Trabalho Remoto
+      speakers:
+      - name: Henrique Bastos
+      description: ''
+
+  - time: 15h15 - 15h45
+    talks:
+    - title: Coffee Break
+
+  - time: 15h45 - 16h15
+    talks:
+    - title: Palestra a ser definida
+
+  - time: 16h20 - 16h50
+    talks:
+    - title: Internet of Things - Muito mais que acender e apagar luzes
+      speakers:
+      - name: Afonso F Oliveira
+        title: Engenheiro de Software na Gupy
+      description: '<i>"Não podemos prever o futuro, mas podemos criá-lo." 
+      Peter Drucker.</i><br>Nesta palestra demonstrarei na prática um modo
+       barato e versátil de automatização residencial, como eu implantei 
+       na minha casa e como hoje eu a comando usando minha voz.'
+
+  - time: 16h55 - 17h25
+    talks:
+    - title: "Full-Stack: Zero-to-hero"
+      speakers:
+      - name: Thiago Sciotta
+        title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
+      description: '* Introdução
+* Como cheguei até aqui
+* Front-end vs Back-end
+* Aprendendo Front-end
+* Noções de usabilidade
+* Mobile
+* Aprendendo Back-end
+* Microsserviços e Filas
+* Banco de dados
+* Controle de versão, devops, cloud etc..
+* Como aprender tudo?'
+
+  - time: 17h30 - 18h00
+    talks:
+    - title: Encerramento
