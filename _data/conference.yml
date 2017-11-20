@@ -38,7 +38,7 @@ speakers:
 
 - name: Afonso F Oliveira
   photo: palestrantes/afonso.jpg
-  title: Engenheiro de Software na Gupy - São Paulo - SP
+  title: Tech Lead na Gupy - São Paulo - SP
   bio: Desenvolvedor há 15 anos, Afonso programa por diversão e curiosidade desde
        que era adolescente, quando tentava criar jogos usando o Excel. Hoje em dia,
        trabalha ajudando empresas a criar softwares estáveis e que resolvem problemas
@@ -54,12 +54,6 @@ speakers:
        horas livres, tenta automatizar sua vida, brinca com seus cachorros e 
        pesquisa sobre novas tecnologias.
 
-#- photo: palestrantes/robson.jpg
-#  name: Robson Ventura
-#  title: Sócio Fundador da Gupy
-#  bio: "Experience with Software Development in diverses languages. Completly in
-#   love about tecnology, I’m an enthusiast of tecnologies as NoSQL, Machine learning, distributed computing and big data analysis that are my current focus study."
-
 - name: Thiago Sciotta
   photo: palestrantes/thiago.jpg
   title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
@@ -67,11 +61,6 @@ speakers:
    Javascript e café sem açúcar. Já passou por diversas empresas e 
    startups do Rio de Janeiro, São Paulo e Estados Unidos como Diebold,
     Rastreabilidade Brasil e HUGE.
-
-
-- name: Henrique Bastos
-  photo: palestrantes/henrique.jpg
-  title: Welcome to the Django
 
 - name: Eduardo Cini
   photo: palestrantes/eduardo-cini.jpg
@@ -83,18 +72,42 @@ speakers:
   testes, atualmente atua em um projeto onde utiliza Node.js para 
   automação de testes WEB/API."
 
-- name: Palestrante bloqueado
-  photo: palestrantes/secret.png
-  title: Aguardando seleção do Call for papers
+- name: Bruno Nardini
+  photo: palestrantes/nardini.jpg
+  title: Tech Lead na Gupy - São Paulo - SP
+  bio: "Tech Lead na Gupy, pós graduado em gestão de projetos, 
+  bacharel em Ciência da Computação, certificado em Scrum Master, 
+  Lean Kanban, ITL e CobIT. Além de já ter trabalhado em várias 
+  empresas e de participar ativamente da comunidade, gosta de 
+  retribuir o conhecimento com palestras, em seu blog ou como 
+  professor."
 
-- name: Palestrante bloqueado
-  photo: palestrantes/secret.png
-  title: Aguardando seleção do Call for papers
+- name: Vinicius Reis
+  photo: palestrantes/vinicius.jpg
+  title: Full Stack Developer na Decision6
+  bio: "Sou Full-Stack Severino-Developer, casado e pai uma filha linda. 
+  Gosta de filmes, livros, mangá, HQs, games… Ou seja, gosto de mais 
+  coisas do que tenho tempo para fazê-las. Gravo vídeos para o Codecasts
+  e trabalha na Decision6 como Engenheiro de Aplicações."
 
-- name: Palestrante bloqueado
-  photo: palestrantes/secret.png
-  title: Aguardando seleção do Call for papers
+- name: Edgard Kozlowski
+  photo: palestrantes/edgard.jpg
+  title: Sócio do Balacoba.co e Dev na TUUT Creative
+  bio: "Edgard Kozlowski é Desenvolvedor/Designer, atualmente Sócio do
+  Balacoba.co e Desenvolvedor na TUUT Creative. Estudou Comunicação
+  Social no Centro Universitário de Volta Redonda, porém, quando era
+  Designer de Produto do Emotion.me, começou a se interessar por
+  desenvolvimento e acabou se apaixonando pela área. Seu atual
+  foco de estudos hoje em dia é Javascript."
 
+- name: Rian Dutra
+  photo: palestrantes/rian.jpg
+  title: Designer e Desenvolvedor na agência Rian Design
+  bio: "Sócio fundador da Rian Design, na qual desenvolveu sites,
+  aplicativos e projetos gráficos para clientes como Udacity 
+  Brasil, Museu Imperial de Petrópolis, Instituto Ronald McDonald,
+  SOS Mata Atlântica, Ephere (Canadá), Sergio Mallandro e Tom
+  Cavalcante"
 
 sponsorships:
 - name: Realização
@@ -105,11 +118,7 @@ sponsorships:
   - name: Google Developers Group Sul Fluminense
     website: https://developers.google.com/groups/chapter/102014886202826171598/
     logo: sponsors/gdgsf.png
-# - name: Diamante
-#   sponsors:
-#   - name: Microcamp Volta Redonda
-#     website: http://www.microcamp.com.br/
-#     logo: sponsors/microcamp.png
+
 - name: Gold
   sponsors:
   - name: ScalablePath
@@ -129,11 +138,9 @@ sponsorships:
   - name: Alura
     website: https://www.alura.com.br/
     logo: sponsors/alura.png
-
   - name: UGB
     website: http://www.ugb.edu.br/
     logo: sponsors/ugb.png
-
 
 - name: Support
   sponsors:
@@ -143,47 +150,42 @@ sponsorships:
   - name: GetNinjas
     website: https://www.getninjas.com.br/
     logo: sponsors/getninjas.png
-
-#   - name: Desenvolvendo.vc
-#     website: http://www.desenvolvendo.vc
-#     logo: sponsors/desenvolvendovc.png
-# - name: Bronze
-#   sponsors:
-#   - name: UGB
-#     website: http://www.ferp.br
-#     logo: sponsors/ugb.jpg
-# - name: Apoio
-#   sponsors:
-#   - name: Google
-#     website: http://www.google.com/intl/en/about
-#     logo: sponsors/google.png
-#   - name: GAS Tecnologia
-#     website: http://www.diebold.com.br
-#     logo: sponsors/gas.png
-#   - name: Casa do Código
-#     website: http://www.casadocodigo.com.br
-#     logo: sponsors/logo-casadocodigo.png
-#   - name: Gráfica Volgraf
-#     website: https://www.facebook.com/pages/Volgraf/153189751526053
-#     logo: sponsors/logo-volgraf.png
-#
+  - name: Gráfica Volgraf
+    website: https://www.facebook.com/pages/Volgraf/153189751526053
+    logo: sponsors/logo-volgraf.png
+  - name: HiApp
+    website: http://www.hiapp.club/
+    logo: sponsors/hiapp.png
 
 show_schedules: true
 
 schedules:
-  - time: 08h00 - 08h30
+  - time: 08h30 - 09h00
     talks:
     - title: Credenciamento
 
-  - time: 08h30 - 09h00
+  - time: 09h00 - 09h30
     talks:
     - title: Abertura
 
-  - time: 09h00 - 09h30
+  - time: 09h30 - 10h00
     talks:
-    - title: Palestra a ser definida
+    - title: UX Design para Desenvolvedores
+      description: "Designer e Desenvolvedor na agência Rian Design"
+      speakers:
+      - name: Rian Dutra
+        title: Designer e Desenvolvedor na agência Rian Design
+      description: 'Entender User Experience Design (UX Design) e
+      como melhorá-lo é crucial para que os desenvolvedores atuais
+      criem produtos de sucesso. Contudo, muitos desenvolvedores 
+      ainda têm dificuldade em entender como incluir a cultura de 
+      UX Design em suas atividades diárias. Um entendimento claro 
+      de UX e algumas técnicas e preocupações pontuais podem 
+      melhorar consideravelmente a forma como os produtos são 
+      desenvolvidos, tornando-os mais valiosos, mais fáceis de 
+      usar e com maior propensão de serem bem-sucedidos.'
 
-  - time: 09h35 - 10h35
+  - time: 10h05 - 11h05
     talks:
     - title: 'Art attack para robôs: ensinando arte ao seu computador'
       speakers:
@@ -201,11 +203,11 @@ schedules:
        incrível jornada rumo ao desconhecido e o inusitado mundo 
        do aprendizado de máquina.'
 
-  - time: 10h35 - 11h05
+  - time: 11h05 - 11h35
     talks:
     - title: Coffee Break
 
-  - time: 11h05 - 12h05
+  - time: 11h35 - 12h35
     talks:
     - title: Segredos não ditos de PWA - muito além do Web App Manifest
       description: 'Essa palestra tem como objetivo destrinchar mais a
@@ -217,15 +219,23 @@ schedules:
       - name: Eduardo Matos
         title: Tech Lead na GetNinjas
 
-  - time: 12h05 - 13h05
+  - time: 12h40 - 13h10
+    talks:
+    - title: CSS Legível e escalável com BEM CSS
+      description: 'BEM (block, element and modifier) é  uma 
+      metodologia que sugere uma forma estruturada de nomear 
+      suas classes CSS, baseando-se nas propriedades do 
+      elemento em questão, fazendo com que seu código fique 
+      mais legível e reutilizável.'
+      speakers:
+      - name: Edgard Kozlowski
+        title: Sócio do Balacoba.co e Dev na TUUT Creative
+
+  - time: 13h10 - 14h10
     talks:
     - title: Almoço
 
-  - time: 13h05 - 13h35
-    talks:
-    - title: Palestra a ser definida
-
-  - time: 13h40 - 14h10
+  - time: 14h10 - 14h40
     talks:
     - title: 'Agile Testing - Qualidade do Discovery ao Deploy'
       description: 'Seguindo o modelo Agil de desenvolvimento de 
@@ -243,31 +253,47 @@ schedules:
         title: QA na Concrete Solutions
 
 
-  - time: 14h15 - 15h15
+  - time: 14h45 - 15h15
     talks:
-    - title: Tudo que você queria saber sobre Trabalho Remoto
+    - title: Tudo que você queria saber sobre Trabalho Remoto (remake)
       speakers:
-      - name: Henrique Bastos
-      description: ''
+      - name: Bruno Nardini
+        title: Tech Lead na Gupy
+      description: 'A CLT está mudando, as empresas estão buscando
+      novas formas de trabalho, a área de tecnologia está evoluindo,
+      e você? Está preparado para essa nova forma de trabalho?'
 
-  - time: 15h15 - 15h45
+  - time: 15h20 - 15h50
+    talks:
+    - title: Full Stack Developer na Decision6
+      speakers:
+      - name: Vinicius Reis
+        title: Tech Lead na Gupy
+      description: 'Origem, objetivos e mercado. Programação 
+      Funcional é uma realidade, não mais um movimento de "hype". 
+      Entender o real poder e uso da Programação Funcional pode 
+      mudar a maneira como criamos nossos projetos.'
+
+
+  - time: 15h50 - 16h20
     talks:
     - title: Coffee Break
 
-  - time: 15h45 - 16h15
-    talks:
-    - title: Palestra a ser definida
-
   - time: 16h20 - 16h50
     talks:
-    - title: Internet of Things - Muito mais que acender e apagar luzes
+    - title: Automatizando uma casa com baixo custo usando Google Assitant e NodeJS
       speakers:
       - name: Afonso F Oliveira
-        title: Engenheiro de Software na Gupy
-      description: '<i>"Não podemos prever o futuro, mas podemos criá-lo." 
-      Peter Drucker.</i><br>Nesta palestra demonstrarei na prática um modo
-       barato e versátil de automatização residencial, como eu implantei 
-       na minha casa e como hoje eu a comando usando minha voz.'
+        title: Tech Lead na Gupy
+      description: "Eu sempre quis ter um assistente como o Jarvis, o C3PO
+      ou a Rosie dos Jetsons. Acredito que a público em geral também tem a 
+      vontade de controlar a sua casa apenas com a voz ou usando o celular. 
+      Porém hoje dispositivos IoT são muito caros e muitos deles não 
+      conversam entre si. A proposta é aprender como implementar essa 
+      automatização de forma barata e inter compatível, fazendo com o que 
+      se tem em casa possa ser transformado em um dispositivo IoT e ser 
+      controlado por voz. Sejam dispositivos simples como lâmpadas ou 
+      dispositivos mais complexos como smart TV's."
 
   - time: 16h55 - 17h25
     talks:
@@ -275,17 +301,9 @@ schedules:
       speakers:
       - name: Thiago Sciotta
         title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
-      description: '* Introdução
-* Como cheguei até aqui
-* Front-end vs Back-end
-* Aprendendo Front-end
-* Noções de usabilidade
-* Mobile
-* Aprendendo Back-end
-* Microsserviços e Filas
-* Banco de dados
-* Controle de versão, devops, cloud etc..
-* Como aprender tudo?'
+      description: 'O que é ser um programador full-stack? Como aprender 
+      tudo? Descubra os caminhos que serão necessários percorrer, desafios,
+      vantagens e desvantagens.'
 
   - time: 17h30 - 18h00
     talks:
