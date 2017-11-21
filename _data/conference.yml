@@ -265,10 +265,10 @@ schedules:
 
   - time: 15h20 - 15h50
     talks:
-    - title: Full Stack Developer na Decision6
+    - title: Programação Funcional não é Modinha
       speakers:
       - name: Vinicius Reis
-        title: Tech Lead na Gupy
+        title: Full Stack Developer na Decision6
       description: 'Origem, objetivos e mercado. Programação 
       Funcional é uma realidade, não mais um movimento de "hype". 
       Entender o real poder e uso da Programação Funcional pode 
