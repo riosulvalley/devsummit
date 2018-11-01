@@ -1,7 +1,7 @@
 ---
 released: true
 url: http://riosulvalley.com/devconf
-eventick: https://www.sympla.com.br/rsv-dev-conf__188065
+eventick: https://www.sympla.com.br/rio-sul-valley-devsummit__393629
 analytics: ---
 name: Rio Sul Valley Dev Summit
 slogan: Conferência de desenvolvimento no Sul Fluminense
@@ -13,101 +13,23 @@ description2: "O objetivo é disseminar o conhecimento e atualizar os desenvolve
 Esperamos neste evento estudantes, empresários, profissionais
 da área, curiosos e apaixonados por tecnologia em geral. Inscreva-se!"
 
-date: 25 de Novembro de 2017
+edition: Quarta
+date: 24 de Novembro de 2018
 place:
   name: UGB
   city: Volta Redonda - RJ
   map: https://www.google.com.br/maps/place/UGB/@-22.5084585,-44.0917825,17z
 callforpapers:
-  enabled: false
+  enabled: true
   title: Seja um palestrante!
-  url: https://goo.gl/forms/fK2TZeAw0vmHuUP32
+  url: https://docs.google.com/forms/d/e/1FAIpQLScqoMEhMEIONCZR6KAG22Ddo2Cvx-zZz-Lx9LdAgh4IzjV-ig/viewform
 
 show_speakers: true
 
 speakers:
-- name: Eduardo Matos
-  photo: palestrantes/eduardo.jpg
-  title: Tech Lead na GetNinjas - Campinas - SP
-  bio: Desenvolvedor web desde 2004, quando começou a trabalhar como
-       professor e programador. Trabalhou em diversas empresas como R7.com,
-       JWT, Medicinia, Creditas e em projetos com Philips, Adidas, entre
-       outras. Atua como Tech Lead na GetNinjas , palestrante e organizador
-       do HTML-SP e um dos administradores da organização do Frontend Brasil,
-       no Github.
 
-- name: Afonso F Oliveira
-  photo: palestrantes/afonso.jpg
-  title: Tech Lead na Gupy - São Paulo - SP
-  bio: Desenvolvedor há 15 anos, Afonso programa por diversão e curiosidade desde
-       que era adolescente, quando tentava criar jogos usando o Excel. Hoje em dia,
-       trabalha ajudando empresas a criar softwares estáveis e que resolvem problemas
-       reais. Já se aventurou em startups nos EUA e Canada e recentemente voltou
-       para o interior. É MBA em Gerenciamento de Projetos e graduado em Ciência 
-       da Computação.
-
-- name: Isabella Silveira
-  photo: palestrantes/isabella.jpg
-  title: Desenvolvedora na Work&Co - Rio de Janeiro - RJ
-  bio: Isabella Silveira, ou só Isa mesmo, é uma grande entusiasta de Machine 
-       Learning e atualmente trabalha como desenvolvedora na Work & Co. Nas 
-       horas livres, tenta automatizar sua vida, brinca com seus cachorros e 
-       pesquisa sobre novas tecnologias.
-
-- name: Thiago Sciotta
-  photo: palestrantes/thiago.jpg
-  title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
-  bio: Thiago é desenvolvedor full-stack e trabalha remoto. Viciado em
-   Javascript e café sem açúcar. Já passou por diversas empresas e 
-   startups do Rio de Janeiro, São Paulo e Estados Unidos como Diebold,
-    Rastreabilidade Brasil e HUGE.
-
-- name: Eduardo Cini
-  photo: palestrantes/eduardo-cini.jpg
-  title: QA na Concrete Solutions
-  bio: "Graduado em Sistema de Informação, certificado Scrum Master,
-  Product Owner e Teste de Software. Trabalha como QA na Concrete
-  Solutions, uma empresa de consultoria que desenvolve soluções 
-  digitais. Possui experiência em times ágeis e com automação de
-  testes, atualmente atua em um projeto onde utiliza Node.js para 
-  automação de testes WEB/API."
-
-- name: Bruno Nardini
-  photo: palestrantes/nardini.jpg
-  title: Tech Lead na Gupy - São Paulo - SP
-  bio: "Tech Lead na Gupy, pós graduado em gestão de projetos, 
-  bacharel em Ciência da Computação, certificado em Scrum Master, 
-  Lean Kanban, ITL e CobIT. Além de já ter trabalhado em várias 
-  empresas e de participar ativamente da comunidade, gosta de 
-  retribuir o conhecimento com palestras, em seu blog ou como 
-  professor."
-
-- name: Vinicius Reis
-  photo: palestrantes/vinicius.jpg
-  title: Full Stack Developer na Decision6
-  bio: "Sou Full-Stack Severino-Developer, casado e pai uma filha linda. 
-  Gosta de filmes, livros, mangá, HQs, games… Ou seja, gosto de mais 
-  coisas do que tenho tempo para fazê-las. Gravo vídeos para o Codecasts
-  e trabalha na Decision6 como Engenheiro de Aplicações."
-
-- name: Edgard Kozlowski
-  photo: palestrantes/edgard.jpg
-  title: Sócio do Balacoba.co e Dev na TUUT Creative
-  bio: "Edgard Kozlowski é Desenvolvedor/Designer, atualmente Sócio do
-  Balacoba.co e Desenvolvedor na TUUT Creative. Estudou Comunicação
-  Social no Centro Universitário de Volta Redonda, porém, quando era
-  Designer de Produto do Emotion.me, começou a se interessar por
-  desenvolvimento e acabou se apaixonando pela área. Seu atual
-  foco de estudos hoje em dia é Javascript."
-
-- name: Rian Dutra
-  photo: palestrantes/rian.jpg
-  title: Designer e Desenvolvedor na agência Rian Design
-  bio: "Sócio fundador da Rian Design, na qual desenvolveu sites,
-  aplicativos e projetos gráficos para clientes como Udacity 
-  Brasil, Museu Imperial de Petrópolis, Instituto Ronald McDonald,
-  SOS Mata Atlântica, Ephere (Canadá), Sergio Mallandro e Tom
-  Cavalcante"
+sponsorship:
+   mediakit: https://docs.google.com/presentation/d/1ybwIuEkHgS7-iSmalASCExhGcUrOugOIEAcvObvg7Qc/present?includes_info_params=1#slide=id.p
 
 sponsorships:
 - name: Realização
@@ -115,47 +37,16 @@ sponsorships:
   - name: Rio Sul Valley
     website: http://riosulvalley.com.br
     logo: sponsors/riosulvalley.png
-  - name: Google Developers Group Sul Fluminense
-    website: https://developers.google.com/groups/chapter/102014886202826171598/
-    logo: sponsors/gdgsf.png
-
-- name: Gold
-  sponsors:
-  - name: ScalablePath
-    website: https://www.scalablepath.com/
-    logo: sponsors/scalablepath.png
-
-  - name: K&S - Mídia e Marketing
-    website: https://www.facebook.com/kesmidiamarketing/
-    logo: sponsors/kes.png
-
-  - name: Revolution School
-    website: https://www.facebook.com/revolutionschoolvr/
-    logo: sponsors/revolution.jpg
-
 - name: Silver
   sponsors:
-  - name: Alura
-    website: https://www.alura.com.br/
-    logo: sponsors/alura.png
   - name: UGB
-    website: http://www.ugb.edu.br/
+    website: http://www.ugb.edu.br
     logo: sponsors/ugb.png
-
 - name: Support
   sponsors:
-  - name: Dev na Estrada
-    website: http://devnaestrada.com.br/
-    logo: sponsors/dne.png
-  - name: GetNinjas
-    website: https://www.getninjas.com.br/
-    logo: sponsors/getninjas.png
-  - name: Gráfica Volgraf
-    website: https://www.facebook.com/pages/Volgraf/153189751526053
-    logo: sponsors/logo-volgraf.png
-  - name: HiApp
-    website: http://www.hiapp.club/
-    logo: sponsors/hiapp.png
+  - name: Lyseon Tech
+    website: http://lt.coop.br
+    logo: sponsors/lt.png
 
 show_schedules: true
 
@@ -170,38 +61,11 @@ schedules:
 
   - time: 09h30 - 10h00
     talks:
-    - title: UX Design para Desenvolvedores
-      description: "Designer e Desenvolvedor na agência Rian Design"
-      speakers:
-      - name: Rian Dutra
-        title: Designer e Desenvolvedor na agência Rian Design
-      description: 'Entender User Experience Design (UX Design) e
-      como melhorá-lo é crucial para que os desenvolvedores atuais
-      criem produtos de sucesso. Contudo, muitos desenvolvedores 
-      ainda têm dificuldade em entender como incluir a cultura de 
-      UX Design em suas atividades diárias. Um entendimento claro 
-      de UX e algumas técnicas e preocupações pontuais podem 
-      melhorar consideravelmente a forma como os produtos são 
-      desenvolvidos, tornando-os mais valiosos, mais fáceis de 
-      usar e com maior propensão de serem bem-sucedidos.'
+    - title: Em breve!
 
   - time: 10h05 - 11h05
     talks:
-    - title: 'Art attack para robôs: ensinando arte ao seu computador'
-      speakers:
-      - name: Isabella Silveira
-        title: Desenvolvedora na Work&Co
-      description: 'Machine learning vem revolucionando o mercado 
-      tecnológico com soluções cada vez mais arrojadas: algoritmos de
-       recomendações que sabem exatamente do que gostamos, fones de
-       ouvido capazes de traduzir conversas inteiras em tempo real e
-       até poder preditivo para nos ajudar a adivinhar o futuro. Mas
-       e quanto à arte? Podemos ter máquinas criativas e inteligentes
-       suficiente capaz de produzir arte? O que acontece quando
-       juntamos poder computacional e as obras dos maiores artistas
-       que a história já viu? É o que você vai descobrir nessa 
-       incrível jornada rumo ao desconhecido e o inusitado mundo 
-       do aprendizado de máquina.'
+    - title: Em breve!
 
   - time: 11h05 - 11h35
     talks:
@@ -209,27 +73,11 @@ schedules:
 
   - time: 11h35 - 12h35
     talks:
-    - title: Segredos não ditos de PWA - muito além do Web App Manifest
-      description: 'Essa palestra tem como objetivo destrinchar mais a
-      fundo os conceitos que definem um PWA. Vamos ver que tipo de
-      otimizações e quais macetes devemos utilizar para que a
-      performance e experiência de uso de uma aplicação web progressiva
-      tenha o resultado esperado.'
-      speakers:
-      - name: Eduardo Matos
-        title: Tech Lead na GetNinjas
+    - title: Em breve!
 
   - time: 12h40 - 13h10
     talks:
-    - title: CSS Legível e escalável com BEM CSS
-      description: 'BEM (block, element and modifier) é  uma 
-      metodologia que sugere uma forma estruturada de nomear 
-      suas classes CSS, baseando-se nas propriedades do 
-      elemento em questão, fazendo com que seu código fique 
-      mais legível e reutilizável.'
-      speakers:
-      - name: Edgard Kozlowski
-        title: Sócio do Balacoba.co e Dev na TUUT Creative
+    - title: Em breve!
 
   - time: 13h10 - 14h10
     talks:
@@ -237,43 +85,15 @@ schedules:
 
   - time: 14h10 - 14h40
     talks:
-    - title: 'Agile Testing - Qualidade do Discovery ao Deploy'
-      description: 'Seguindo o modelo Agil de desenvolvimento de 
-      software, com a necessidade de gerar valor a cada entrega 
-      para o cliente, o "Tester" precisa ter um papel mais atuante 
-      em todas as fase do produto, desde o entendimento do 
-      produto(Discovery) até a entrega(Deploy). Sendo assim, o Agile 
-      Testing surge com a premissa de que o Tester passa a ter não 
-      só as habilidades técnicas mas também habilidades 
-      crítica/analítica para ajudar o time a desenvolver um produto 
-      melhor e que atenda a real necessidade do cliente sem o 
-      desperdício de tempo e dinheiro.'
-      speakers:
-      - name: Eduardo Cini
-        title: QA na Concrete Solutions
-
+    - title: Em breve!
 
   - time: 14h45 - 15h15
     talks:
-    - title: Tudo que você queria saber sobre Trabalho Remoto (remake)
-      speakers:
-      - name: Bruno Nardini
-        title: Tech Lead na Gupy
-      description: 'A CLT está mudando, as empresas estão buscando
-      novas formas de trabalho, a área de tecnologia está evoluindo,
-      e você? Está preparado para essa nova forma de trabalho?'
+    - title: Em breve!
 
   - time: 15h20 - 15h50
     talks:
-    - title: Programação Funcional não é Modinha
-      speakers:
-      - name: Vinicius Reis
-        title: Full Stack Developer na Decision6
-      description: 'Origem, objetivos e mercado. Programação 
-      Funcional é uma realidade, não mais um movimento de "hype". 
-      Entender o real poder e uso da Programação Funcional pode 
-      mudar a maneira como criamos nossos projetos.'
-
+    - title: Em breve!
 
   - time: 15h50 - 16h20
     talks:
@@ -281,29 +101,11 @@ schedules:
 
   - time: 16h20 - 16h50
     talks:
-    - title: Automatizando uma casa com baixo custo usando Google Assitant e NodeJS
-      speakers:
-      - name: Afonso F Oliveira
-        title: Tech Lead na Gupy
-      description: "Eu sempre quis ter um assistente como o Jarvis, o C3PO
-      ou a Rosie dos Jetsons. Acredito que a público em geral também tem a 
-      vontade de controlar a sua casa apenas com a voz ou usando o celular. 
-      Porém hoje dispositivos IoT são muito caros e muitos deles não 
-      conversam entre si. A proposta é aprender como implementar essa 
-      automatização de forma barata e inter compatível, fazendo com o que 
-      se tem em casa possa ser transformado em um dispositivo IoT e ser 
-      controlado por voz. Sejam dispositivos simples como lâmpadas ou 
-      dispositivos mais complexos como smart TV's."
+    - title: Em breve!
 
   - time: 16h55 - 17h25
     talks:
-    - title: "Full-Stack: Zero-to-hero"
-      speakers:
-      - name: Thiago Sciotta
-        title: Desenvolvedor Full-stack na Veriz Tecnologia - Brasília - DF 
-      description: 'O que é ser um programador full-stack? Como aprender 
-      tudo? Descubra os caminhos que serão necessários percorrer, desafios,
-      vantagens e desvantagens.'
+    - title: Em breve!
 
   - time: 17h30 - 18h00
     talks:
