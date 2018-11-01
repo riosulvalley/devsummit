@@ -8,10 +8,10 @@ layout: default
     <article class="row">
       <h1>
         <img src="assets/images/logo.svg" alt="{{conference.name}}" class="logo">
-        <br>Terceira edição
+        <br>{{conference.edition}} edição
       </h1>
       <!--<h1 class="main-title">{{conference.name}}</h1>-->
-      <a href="{{conference.eventick}}" class="register-btn">Inscreva-se</a>
+      <a href="{{conference.eventick}}" target="_blank" class="register-btn">Inscreva-se</a>
 
       {% if conference.callforpapers.enabled %}
       <a href="{{conference.callforpapers.url}}" target="_blank" class="register-btn" style="width: 15em">
@@ -130,7 +130,7 @@ layout: default
       <address class="event-address">
         <p>Local do evento <span>{{conference.place.name}} em {{conference.place.city}} </span></p>
       </address>
-      <a href="{{conference.place.map}}" class="more-info">Como chegar</a>
+      <a href="{{conference.place.map}}" target="_blank" class="more-info">Como chegar</a>
     </article>
   </section>
   <section class="sponsors">
@@ -155,12 +155,13 @@ layout: default
 
       <div class="row">
         <a class="invitation"
-           href="https://docs.google.com/presentation/d/e/2PACX-1vS7X1Nj7TTeevfNMoOOrrFt6gQSBoue95hXL9m4om7SrMDkpEPh7rebEPCBF_C8SsBP333OnCFfIfVM/pub"
+           href="{{conference.sponsorship.mediakit}}"
            target="_blank">Seja um patrocinador</a>
       </div>
     </article>
   </section>
   <footer class="main-footer">
-    <p class="copyright">© Copyright {{ 'now' | date: "%Y" }} - todos os direitos reservados</p>
+    <p class="copyright">© Copyleft {{ 'now' | date: "%Y" }} - source com ❤️ no <a
+       href="https://github.com/riosulvalley/devsummt" target="_blank">GitHub</a></p>
   </footer>
 </div>
