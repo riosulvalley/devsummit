@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  jekyll:
+    image: jekyll/jekyll
+    command: jekyll serve --watch --incremental
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
