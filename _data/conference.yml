@@ -36,7 +36,7 @@ sponsorships:
   sponsors:
   - name: Rio Sul Valley
     website: http://riosulvalley.com.br
-    logo: sponsors/riosulvalley.png
+    logo: sponsors/rsv2.jpg
 - name: Silver
   sponsors:
   - name: UGB
@@ -44,9 +44,24 @@ sponsorships:
     logo: sponsors/ugb.png
 - name: Support
   sponsors:
+  - name: Boa Refeição
+    website: https://www.boarefeicao.com.br/
+    logo: sponsors/boa-refeicao.png
+  - name: DEVNAESTRADA
+    website: https://devnaestrada.com.br/
+    logo: sponsors/dne2.png
+  - name: Impacte
+    website: https://impactesolucoes.com.br/
+    logo: sponsors/Impacte.png
+  - name: K&F Audiovisual
+    website: https://www.facebook.com/kefaudiovisual/
+    logo: sponsors/kes.png
   - name: Lyseon Tech
     website: http://lt.coop.br
     logo: sponsors/lt.png
+  - name: Maior
+    website: https://www.agenciamaior.com.br/
+    logo: sponsors/maior.png
 
 show_schedules: true
 
