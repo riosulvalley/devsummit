@@ -50,6 +50,9 @@ sponsorships:
   - name: DEVNAESTRADA
     website: https://devnaestrada.com.br/
     logo: sponsors/dne2.png
+  - name: Gabriel Beraldo
+    website: https://www.behance.net/gabriel-be6ede
+    logo: sponsors/gabriel.jpg
   - name: Impacte
     website: https://impactesolucoes.com.br/
     logo: sponsors/Impacte.png
@@ -111,17 +114,5 @@ schedules:
     - title: Em breve!
 
   - time: 15h50 - 16h20
-    talks:
-    - title: Coffee Break
-
-  - time: 16h20 - 16h50
-    talks:
-    - title: Em breve!
-
-  - time: 16h55 - 17h25
-    talks:
-    - title: Em breve!
-
-  - time: 17h30 - 18h00
     talks:
     - title: Encerramento
