@@ -27,6 +27,32 @@ callforpapers:
 show_speakers: true
 
 speakers:
+  - name: Cadunico
+    photo: palestrantes/cadunico.jpg
+    title: Designer há mais de 15 anos e a mais de 7 anos utiliza somente software livre em suas criações.
+    bio: Membro dos grupos LINUERJ, Debian-RJ e SL-RJ. Ministrou palestras, minicursos e cursos sobre recursos de softwares gráficos e produção gráfica em diversas instituições e eventos de renome no software livre como: UNESP, CONSEGI, LATINOWARE, FÓRUM DE SOFTWARE LIVRE DE DUQUE DE CAXIAS, PONTÃO DA ECO – UFRJ, MARATONA DE SOFTWARE LIVRE DE VOLTA REDONDA, RIO +20, entre outros.
+
+  - name: Daiane Alves
+    photo: palestrantes/daiane-alves.jpeg
+    title: Diretora financeira na Lyseon Tech
+    bio: Organizadora da comunidade PHPRio e fundadora da comunidade PHPWomenRJ e apaixonada pela filosofia do software livre.
+        Estudante de Sistemas de Informação na UFF, trabalho dando aulas de informática desde 2003 e no momento estudo desenvolvimento de aplicações web com PHP.
+
+  - name: Everton Muniz
+    photo: palestrantes/everton-muniz.jpeg
+    title: Engenheiro de Software na Portabilis
+    bio: Trabalho há 8 anos na área de TI, atualmente sou Engenheiro de Software na Portabilis, onde ajudo a melhorar a educação no Brasil através de Software Livre.
+      Sou apaixonado por desenvolvimento de software com código limpo e boas práticas
+
+   - name: Igor Lopes
+    photo: palestrantes/igor-lopes.jpg
+    title: Fundador do site Boa Refeição
+    bio: Há mais de 5 anos trabalhando com PHP, atualmente possuo um guia gastronômico chamado Boa Refeição e, trabalho home office para uma empresa americana e sou freelancer para algumas empresas da região.
+
+  - name: Vitor Mattos
+    photo: palestrantes/vitor-mattos.jpeg
+    title: CTO da Lyseon Tech
+    bio: Trabalho há mais de 15 anos na área de web e TI, empreendedor, sempre buscando novos desafios e conhecimentos. Grande incentivador do software livre, evangelista PHP, palestrante em eventos regionais e nacionais. Amante do conhecimento e apaixonado por compartilhá-lo com todos.
 
 sponsorship:
    mediakit: https://docs.google.com/presentation/d/1ybwIuEkHgS7-iSmalASCExhGcUrOugOIEAcvObvg7Qc/present?includes_info_params=1#slide=id.p
@@ -47,21 +73,27 @@ sponsorships:
   - name: Boa Refeição
     website: https://www.boarefeicao.com.br/
     logo: sponsors/boa-refeicao.png
+  
   - name: DEVNAESTRADA
     website: https://devnaestrada.com.br/
     logo: sponsors/dne2.png
+  
   - name: Gabriel Beraldo
     website: https://www.behance.net/gabriel-be6ede
     logo: sponsors/gabriel.jpg
+  
   - name: Impacte
     website: https://impactesolucoes.com.br/
     logo: sponsors/Impacte.png
+  
   - name: K&F Audiovisual
     website: https://www.facebook.com/kefaudiovisual/
     logo: sponsors/kes.png
+  
   - name: Lyseon Tech
     website: http://lt.coop.br
     logo: sponsors/lt.png
+  
   - name: Maior
     website: https://www.agenciamaior.com.br/
     logo: sponsors/maior.png
@@ -69,50 +101,50 @@ sponsorships:
 show_schedules: true
 
 schedules:
-  - time: 08h30 - 09h00
+  - time: 08:00
     talks:
     - title: Credenciamento
 
-  - time: 09h00 - 09h30
-    talks:
-    - title: Abertura
-
-  - time: 09h30 - 10h00
+  - time: 09:00
     talks:
     - title: Em breve!
 
-  - time: 10h05 - 11h05
+  - time: 09:40
     talks:
     - title: Em breve!
 
-  - time: 11h05 - 11h35
+  - time: 10:20
     talks:
-    - title: Coffee Break
+    - title: Case do i-Educar - Os desafios da migração de um software proprietário para software livre
 
-  - time: 11h35 - 12h35
+  - time: 11:00
     talks:
-    - title: Em breve!
+    - title: Videografismo com Software livre
 
-  - time: 12h40 - 13h10
+  - time: 11:40
     talks:
-    - title: Em breve!
+    - title: OpenCart - Criando um e-commerce de maneira rápida.
 
-  - time: 13h10 - 14h10
+  - time: 12:20
     talks:
     - title: Almoço
 
-  - time: 14h10 - 14h40
+  - time: 13:20
     talks:
     - title: Em breve!
 
-  - time: 14h45 - 15h15
+  - time: 14:00
+    talks:
+    - title: Contribuindo e criando software livre
+
+  - time: 14:40
     talks:
     - title: Em breve!
 
-  - time: 15h20 - 15h50
+  - time: 15:20
     talks:
-    - title: Em breve!
+    - title: Como ganhar dinheiro com Software Livre?
 
-  - time: 15h50 - 16h20
+  - time: 16:00
     talks:
     - title: Encerramento
