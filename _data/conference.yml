@@ -20,7 +20,7 @@ place:
   city: Volta Redonda - RJ
   map: https://goo.gl/maps/m52dn7NmGxN2
 callforpapers:
-  enabled: true
+  enabled: false
   title: Seja um palestrante!
   url: https://docs.google.com/forms/d/e/1FAIpQLScqoMEhMEIONCZR6KAG22Ddo2Cvx-zZz-Lx9LdAgh4IzjV-ig/viewform
 
