@@ -101,50 +101,50 @@ sponsorships:
 show_schedules: true
 
 schedules:
-  - time: 08:00
+  - time: 08h00
     talks:
     - title: Credenciamento
 
-  - time: 09:00
+  - time: 09h00
     talks:
     - title: Em breve!
 
-  - time: 09:40
+  - time: 09h40
     talks:
     - title: Em breve!
 
-  - time: 10:20
+  - time: 10h20
     talks:
     - title: Case do i-Educar - Os desafios da migração de um software proprietário para software livre
 
-  - time: 11:00
+  - time: 11h00
     talks:
     - title: Videografismo com Software livre
 
-  - time: 11:40
+  - time: 11h40
     talks:
     - title: OpenCart - Criando um e-commerce de maneira rápida.
 
-  - time: 12:20
+  - time: 12h20
     talks:
     - title: Almoço
 
-  - time: 13:20
+  - time: 13h20
     talks:
     - title: Em breve!
 
-  - time: 14:00
+  - time: 14h00
     talks:
     - title: Contribuindo e criando software livre
 
-  - time: 14:40
+  - time: 14h40
     talks:
     - title: Em breve!
 
-  - time: 15:20
+  - time: 15h20
     talks:
     - title: Como ganhar dinheiro com Software Livre?
 
-  - time: 16:00
+  - time: 16h00
     talks:
     - title: Encerramento
