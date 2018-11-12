@@ -54,6 +54,11 @@ speakers:
   title: CTO da Lyseon Tech
   bio: Trabalho há mais de 15 anos na área de web e TI, empreendedor, sempre buscando novos desafios e conhecimentos. Grande incentivador do software livre, evangelista PHP, palestrante em eventos regionais e nacionais. Amante do conhecimento e apaixonado por compartilhá-lo com todos.
 
+- name: Wesley de Brito
+  photo: palestrantes/weslley-de-brito.jpg
+  title: CEO da WTech – Soluções em Informática
+  bio: Trabalho na área de TI há 9 anos. Sou formado em Engenharia da Computação e já trabalhei com suporte e softwares livres, design gráfico, programação desktop e WEB, automação e dando aulas de informática e cursos avançados. Em 2016 fundei a WTech mesclando um pouco desse universo de áreas da informática que já trabalhei. Sou formado em Liderança e me aprofundei em gestão de pessoas e o método SCRUM na importância do bom funcionamento da equipe para um bom resultado. 
+
 sponsorship:
    mediakit: https://docs.google.com/presentation/d/1ybwIuEkHgS7-iSmalASCExhGcUrOugOIEAcvObvg7Qc/present?includes_info_params=1#slide=id.p
 
@@ -131,7 +136,7 @@ schedules:
 
   - time: 13h20
     talks:
-    - title: Em breve!
+    - title: Lógica em Canvas
 
   - time: 14h00
     talks:
