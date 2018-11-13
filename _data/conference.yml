@@ -49,6 +49,11 @@ speakers:
   title: Fundador do site Boa Refeição
   bio: Há mais de 5 anos trabalhando com PHP, atualmente possuo um guia gastronômico chamado Boa Refeição e, trabalho home office para uma empresa americana e sou freelancer para algumas empresas da região.
 
+- name: Lays Rodrigues
+  photo: palestrantes/lays.jpg
+  title: Estagiária TV Globo | KDE Community
+  bio: Lays Rodrigues é desenvolvedora e atualmente estagia na Rede Globo. No tempo livre desenvolve um printer host para impressão 3D, chamado Atelier, além de fazer parte da comunidade de Software Livre do KDE. Já palestrou em algumas edições da Campus Party Brasil, The Developers Conference, e no PythonRio, falando sobre programação e invenção de moda. Cursa SI na UFF desde 2017.
+
 - name: Professora Michelle Rezende
   photo: palestrantes/professora-michele.png
   title: Professora na Rede Municipal de Ensino de Volta Redonda/RJ
@@ -69,11 +74,6 @@ speakers:
   title: CEO da WTech – Soluções em Informática
   bio: Trabalho na área de TI há 9 anos. Sou formado em Engenharia da Computação e já trabalhei com suporte e softwares livres, design gráfico, programação desktop e WEB, automação e dando aulas de informática e cursos avançados. Em 2016 fundei a WTech mesclando um pouco desse universo de áreas da informática que já trabalhei. Sou formado em Liderança e me aprofundei em gestão de pessoas e o método SCRUM na importância do bom funcionamento da equipe para um bom resultado.
 
-- name: Lays Rodrigues
-  photo: palestrantes/lays.jpg
-  title: Estagiária TV Globo | KDE Community
-  bio: Lays Rodrigues é desenvolvedora e atualmente estagia na Rede Globo. No tempo livre desenvolve um printer host para impressão 3D, chamado Atelier, além de fazer parte da comunidade de Software Livre do KDE. Já palestrou em algumas edições da Campus Party Brasil, The Developers Conference, e no PythonRio, falando sobre programação e invenção de moda. Cursa SI na UFF desde 2017.
-
 sponsorship:
    mediakit: https://docs.google.com/presentation/d/1ybwIuEkHgS7-iSmalASCExhGcUrOugOIEAcvObvg7Qc/present?includes_info_params=1#slide=id.p
 
@@ -92,11 +92,11 @@ sponsorships:
   sponsors:
   - name: Boa Refeição
     website: https://www.boarefeicao.com.br/
-    logo: sponsors/boa-refeicao.png
+    logo: sponsors/boa-refeicao.jpg
 
   - name: DEVNAESTRADA
     website: https://devnaestrada.com.br/
-    logo: sponsors/dne2.png
+    logo: sponsors/dne2.jpg
 
   - name: Gabriel Beraldo
     website: https://www.behance.net/gabriel-be6ede
@@ -112,11 +112,11 @@ sponsorships:
 
   - name: Lyseon Tech
     website: http://lt.coop.br
-    logo: sponsors/lt.png
+    logo: sponsors/lt.jpg
 
   - name: Maior
     website: https://www.agenciamaior.com.br/
-    logo: sponsors/maior.png
+    logo: sponsors/maior.jpg
 
 show_schedules: true
 
@@ -127,23 +127,23 @@ schedules:
 
   - time: 09h00
     talks:
-    - title: GitHub para colaboradores livres
+    - title: GitHub para colaboradores livres. Palestrante - Thiago Sciotta
 
   - time: 09h40
     talks:
-    - title: Em breve!
+    - title: Software Livre - Um mundo sem fronteiras. Palestrante - Lays Rodrigues
 
   - time: 10h20
     talks:
-    - title: Case do i-Educar - Os desafios da migração de um software proprietário para software livre
+    - title: Case do i-Educar - Os desafios da migração de um software proprietário para software livre. Palestrante - Everton Muniz
 
   - time: 11h00
     talks:
-    - title: Videografismo com Software livre
+    - title: Videografismo com Software livre. Palestrante - Cadunico
 
   - time: 11h40
     talks:
-    - title: OpenCart - Criando um e-commerce de maneira rápida.
+    - title: OpenCart - Criando um e-commerce de maneira rápida. Palestrante - Igor Lopes
 
   - time: 12h20
     talks:
@@ -151,19 +151,19 @@ schedules:
 
   - time: 13h20
     talks:
-    - title: Lógica em Canvas
+    - title: Lógica em Canvas. Palestrante - Wesley de Brito
 
   - time: 14h00
     talks:
-    - title: Contribuindo e criando software livre
+    - title: Contribuindo e criando software livre. Palestrante - Vitor Mattos
 
   - time: 14h40
     talks:
-    - title: Software Livre e Educação - Um Mundo de Possibilidades!
+    - title: Software Livre e Educação - Um Mundo de Possibilidades! Palestrante - Professora Michelle Rezende
 
   - time: 15h20
     talks:
-    - title: Como ganhar dinheiro com Software Livre?
+    - title: Como ganhar dinheiro com Software Livre? Palestrante - Daiane Alves
 
   - time: 16h00
     talks:
