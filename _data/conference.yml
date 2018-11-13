@@ -57,7 +57,12 @@ speakers:
 - name: Wesley de Brito
   photo: palestrantes/weslley-de-brito.jpg
   title: CEO da WTech – Soluções em Informática
-  bio: Trabalho na área de TI há 9 anos. Sou formado em Engenharia da Computação e já trabalhei com suporte e softwares livres, design gráfico, programação desktop e WEB, automação e dando aulas de informática e cursos avançados. Em 2016 fundei a WTech mesclando um pouco desse universo de áreas da informática que já trabalhei. Sou formado em Liderança e me aprofundei em gestão de pessoas e o método SCRUM na importância do bom funcionamento da equipe para um bom resultado. 
+  bio: Trabalho na área de TI há 9 anos. Sou formado em Engenharia da Computação e já trabalhei com suporte e softwares livres, design gráfico, programação desktop e WEB, automação e dando aulas de informática e cursos avançados. Em 2016 fundei a WTech mesclando um pouco desse universo de áreas da informática que já trabalhei. Sou formado em Liderança e me aprofundei em gestão de pessoas e o método SCRUM na importância do bom funcionamento da equipe para um bom resultado.
+
+- name: Lays Rodrigues
+  photo: palestrantes/lays.jpg
+  title: Estagiária TV Globo | KDE Community
+  bio: Lays Rodrigues é desenvolvedora e atualmente estagia na Rede Globo. No tempo livre desenvolve um printer host para impressão 3D, chamado Atelier, além de fazer parte da comunidade de Software Livre do KDE. Já palestrou em algumas edições da Campus Party Brasil, The Developers Conference, e no PythonRio, falando sobre programação e invenção de moda. Cursa SI na UFF desde 2017.
 
 sponsorship:
    mediakit: https://docs.google.com/presentation/d/1ybwIuEkHgS7-iSmalASCExhGcUrOugOIEAcvObvg7Qc/present?includes_info_params=1#slide=id.p
@@ -78,27 +83,27 @@ sponsorships:
   - name: Boa Refeição
     website: https://www.boarefeicao.com.br/
     logo: sponsors/boa-refeicao.png
-  
+
   - name: DEVNAESTRADA
     website: https://devnaestrada.com.br/
     logo: sponsors/dne2.png
-  
+
   - name: Gabriel Beraldo
     website: https://www.behance.net/gabriel-be6ede
     logo: sponsors/gabriel.jpg
-  
+
   - name: Impacte
     website: https://impactesolucoes.com.br/
     logo: sponsors/Impacte.png
-  
+
   - name: K&F Audiovisual
     website: https://www.facebook.com/kefaudiovisual/
     logo: sponsors/kes.png
-  
+
   - name: Lyseon Tech
     website: http://lt.coop.br
     logo: sponsors/lt.png
-  
+
   - name: Maior
     website: https://www.agenciamaior.com.br/
     logo: sponsors/maior.png
