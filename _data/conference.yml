@@ -49,6 +49,16 @@ speakers:
   title: Fundador do site Boa Refeição
   bio: Há mais de 5 anos trabalhando com PHP, atualmente possuo um guia gastronômico chamado Boa Refeição e, trabalho home office para uma empresa americana e sou freelancer para algumas empresas da região.
 
+- name: Professora Michelle Rezende
+  photo: palestrantes/professora-michele.png
+  title: Professora na Rede Municipal de Ensino de Volta Redonda/RJ
+  bio: Participa atualmente como professora implementadora no projeto Informática Aplicada à Educação, realizando seus trabalhos e projetos educacionais usando softwares e hardwares livres - ênfase em Robótica Educacional. Coordenadora dos Projetos Robótica na Escola e Informática na Escola na Rede Municipal de Ensino de Barra Mansa/RJ.
+
+- name: Thiago Sciotta
+  photo: palestrantes/thiago-sciotta.jpg
+  title: Co-fundador da 123 Gás e desenvolvedor full-stack
+  bio: Hoje trabalha como engenheiro de dados em projetos de inovação e analytics na TV Globo. Já passou por diversas empresas e startups do Rio de Janeiro, Brasília, São Paulo e Estados Unidos como Diebold, Rastreabilidade Brasil e HUGE.
+
 - name: Vitor Mattos
   photo: palestrantes/vitor-mattos.jpeg
   title: CTO da Lyseon Tech
@@ -112,7 +122,7 @@ schedules:
 
   - time: 09h00
     talks:
-    - title: Em breve!
+    - title: GitHub para colaboradores livres
 
   - time: 09h40
     talks:
@@ -144,7 +154,7 @@ schedules:
 
   - time: 14h40
     talks:
-    - title: Em breve!
+    - title: Software Livre e Educação - Um Mundo de Possibilidades!
 
   - time: 15h20
     talks:
