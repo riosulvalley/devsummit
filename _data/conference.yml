@@ -131,7 +131,7 @@ schedules:
 
   - time: 09h00
     talks:
-    - title: GitHub para colaboradores livres. Palestrante - Thiago Sciotta
+    - title: Contribuindo e criando software livre. Palestrante - Vitor Mattos
 
   - time: 09h40
     talks:
@@ -159,7 +159,7 @@ schedules:
 
   - time: 14h00
     talks:
-    - title: Contribuindo e criando software livre. Palestrante - Vitor Mattos
+    - title: GitHub para colaboradores livres. Palestrante - Thiago Sciotta
 
   - time: 14h40
     talks:
