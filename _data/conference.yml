@@ -90,6 +90,10 @@ sponsorships:
     logo: sponsors/ugb.png
 - name: Support
   sponsors:
+  - name: BRVAL
+    website: http://brval.com.br/
+    logo: sponsors/BRVAL.jpg
+
   - name: Boa Refeição
     website: https://www.boarefeicao.com.br/
     logo: sponsors/boa-refeicao.jpg
