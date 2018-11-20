@@ -85,6 +85,10 @@ sponsorships:
     logo: sponsors/rsv2.jpg
 - name: Silver
   sponsors:
+  - name: CDL
+    website: http://www.cdlvr.org.br/
+    logo: sponsors/cdl.jpg
+
   - name: UGB
     website: http://www.ugb.edu.br
     logo: sponsors/ugb.png
